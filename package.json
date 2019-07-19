@@ -1,0 +1,22 @@
+{
+  "name": "whitepaper-themes-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Simple Parcel Sandbox",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1",
+    "postcss-color-function": "4.1.0",
+    "postcss-nested": "4.1.2",
+    "postcss-simple-vars": "5.0.2"
+  },
+  "dependencies": {},
+  "keywords": [],
+  "author": "Alexey Yaroshevich <zxqfox@gmail.com>",
+  "license": "MPL-2.0"
+}

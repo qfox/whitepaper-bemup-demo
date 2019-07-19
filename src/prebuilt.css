@@ -1,0 +1,4688 @@
+/* Отступы */
+.theme_space_default {
+    /* Отступы */
+    --space-xxxs: 2px;
+    --space-xxs: 4px;
+    --space-xs: 8px;
+    --space-s: 12px;
+    --space-m: 16px;
+    --space-l: 20px;
+    --space-xl: 24px;
+    --space-xxl: 32px;
+    --space-xxxl: 40px;
+    --space-xxxxl: 48px;
+    --space-xxxxxl: 72px;
+    --space-xxxxxxl: 96px;
+
+
+
+    /* Page *//* /Page */
+
+
+    /* Attach */
+    --attach-reset-indentLeft: 5px;
+    --attach-reset-spaceAll: 12px 12px 0 0;
+    /* /Attach */
+
+
+    /* Button */
+    --button-size-s-text-indentAll: 0 13px; /* Размер внешнего отступа у s-button */
+    --button-size-s-icon-indentLeft: 25px; /* Размер внешнего левого отступа текста от иконки у s-button */
+    --button-size-s-icon-indentRight: 25px; /* Размер внешнего правого отступа текста от иконки у s-button */
+
+    --button-size-m-text-indentAll: 0 15px; /* Размер внешнего отступа у m-button */
+    --button-size-m-icon-indentLeft: 29px; /* Размер внешнего левого отступа текста от иконки у m-button */
+    --button-size-m-icon-indentRight: 29px; /* Размер внешнего правого отступа текста от иконки у m-button */
+
+    --button-size-l-text-indentAll: 0 18px; /* Размер внешнего отступа у l-button */
+    --button-size-l-icon-indentLeft: 35px; /* Размер внешнего левого отступа текста от иконки у l-button */
+    --button-size-l-icon-indentRight: 35px; /* Размер внешнего правого отступа текста от иконки у l-button */
+    /* /Button */
+
+
+    /* Checkbox */
+    --checkbox-size-s-indentRight: 5px; /* Размер внешнего правого отступа у s-checkbox (от текста) */
+
+    --checkbox-size-m-indentRight: 5px; /* Размер внешнего правого отступа у m-checkbox (от текста) */
+    /* /Checkbox */
+
+
+    /* Textinput */
+    --textinput-size-s-control-spaceAll: 0 8px; /* Размер внутреннего отступа самого s-textinput */
+    --textinput-size-s-has-icon-spaceRight: 28px; /* Размер внутреннего правого отступа под размер иконки или крестика у s-textinput */
+    --textinput-size-s-has-icon-spaceLeft: 28px; /* Размер внутреннего левого отступа под размер иконки или крестика у s-textinput */
+
+    --textinput-size-m-control-spaceAll: 0 10px; /* Размер внутреннего отступа самого m-textinput */
+    --textinput-size-m-has-icon-spaceRight: 36px; /* Размер внутреннего правого отступа под размер иконки или крестика у m-textinput */
+    --textinput-size-m-has-icon-spaceLeft: 36px; /* Размер внутреннего правого отступа правого остступа под размер иконки или крестика у m-textinput */
+    /* /Textinput */
+
+
+    /* Link *//* /Link */
+    /* Progressbar *//* /Progressbar */
+
+
+
+    /* Radio */
+    --radiobox-size-s-positionTop: 2px; /* Верхний отступ у s-radio */
+    --radiobox-size-s-indentRight: 5px;/* Размер внешнего правого отступа у s-radio (от текста) */
+
+    --radiobox-size-m-positionTop: 3px; /* Верхний отступ у m-radio */
+    --radiobox-size-m-indentRight: 6px;/* Размер внешнего правого отступа у m-radio (от текста) */
+    /* /Radio */
+
+
+    /* Radio-group */
+    --radioButton-icon-indentRight: 7px; /* Размер внешнего правого отступа у от иконки до текста у radioButton */
+    --radioButton-icon-positionTop: 2px; /* Верхний отступ иконки идущей после текста у radioButton */
+    /* /Radio-group */
+
+
+    /* Select *//* /Select */
+
+
+    /* Menu */
+    --menu-size-s-spaceVert: 4px; /* Размер вертикального внутреннего отступа у s-menu */
+    --menu-size-s-item-spaceVert: 3px; /* Размер вертикального внутреннего отступа в пункте у s-menu */
+    --menu-size-s-item-spaceHor: 9px; /* Размер горизонтального внутреннего отступа в пункте у s-menu */
+    --menu-size-s-item-icon-indentRight: 4px; /* Размер правого внешненго отступа от иконки до текста у s-menu */
+    --menu-size-s-group-spaceVert: 4px; /* Размер вертикального внутреннего отступа от группе у s-menu */
+    --menu-size-s-group-spaceHor: 0px; /* Размер горизонтального внутреннего отступа от группе у s-menu */
+    --menu-size-s-group-indentBottom: 4px; /* Размер нижего внешнего отступа от группы до пунктов у s-menu */
+    --menu-size-s-titleSibling-indentLeft: 20px; /* Размер внешнего левого отступа у сущностей после тайтла у s-menu */
+
+    --menu-size-m-spaceVert: 5px; /* Размер вертикального внутреннего отступа у m-menu */
+    --menu-size-m-item-spaceVert: 4px; /* Размер вертикального внутреннего отступа в пункте у m-menu */
+    --menu-size-m-item-spaceHor: 15px; /* Размер горизонтального внутреннего отступа в пункте у m-menu */
+    --menu-size-m-item-icon-indentRight: 6px; /* Размер правого внешненго отступа от иконки до текста у m-menu */
+    --menu-size-m-group-spaceVert: 5px; /* Размер вертикального внутреннего отступа в группе у m-menu */
+    --menu-size-m-group-spaceHor: 0px; /* Размер горизонтального внутреннего отступа в группе у m-menu */
+    --menu-size-m-item-indentBottom: 5px; /* Размер нижего внешнего отступа от пунктов до группы у m-menu */
+    --menu-size-m-group-indentBottom: 5px; /* Размер нижего внешнего отступа от группы до пунктов у m-menu */
+    --menu-size-m-titleSibling-indentLeft: 20px; /* Размер внешнего левого отступа у сущностей после тайтла у m-menu */
+    /* /Menu */
+
+
+    /* Tabs */
+    --tab-size-m-tab-spaceVert: 8px 0px; /* Размер вертикального внутреннего отступа в пункте у m-tabs */
+    /* Tabs */
+
+
+    /* Textarea */
+    --textarea-size-s-spaceAll: 6px 8px; /* Внутренние отступы у s-textarea */
+    --tumbler-size-s-button-positionTop: 2px; /* Отступ кнопки от s-tumbler */
+    --tumbler-size-s-button-positionLeft: 2px; /* Отступ кнопки от s-tumbler */
+    --tumbler-size-s-button-check-positionLeft: 18px; /* Отступ у чекнутого состояния s-button */
+
+    --textarea-size-m-spaceAll: 8px 10px; /* Внутренние отступы m-textarea */
+    --tumbler-size-m-button-positionTop: 2px; /* Внешний  верхний отступ кнопки от m-tumbler */
+    --tumbler-size-m-button-positionLeft: 2px; /* Внешний внутренний отступ кнопки от m-tumbler */
+    --tumbler-size-m-button-check-positionLeft: 20px; /* Отступ у чекнутого состояния m-button */
+    /* /Textarea */
+
+
+    /* Tumbler */
+    --tumbler-size-s-text-side-left-spaceRight: 6px; /* Внутренний Размер внешнего правого отступа текста слева от s-tumbler */
+    --tumbler-size-s-text-side-left-spaceLeft: 6px; /* Внутренний Размер внешнего левого отступа текста слева от s-tumbler  */
+
+    --tumbler-size-m-text-side-left-spaceRight: 6px; /* Внутренний Размер внешнего правого отступа текста слева от m-tumbler */
+    --tumbler-size-m-text-side-left-spaceLeft: 6px; /* Внутренний Размер внешнего левого отступа текста слева от m-tumbler */
+    /* Tumbler */
+
+
+    /* Spinner *//* /Spinner */
+
+
+    /* Slider */
+    --slider-allowed-range-before-indentLeft: -1px; /* Размер внешнего левого отступа левого ограничителя у slider */
+    --slider-allowed-range-after-indentRight: -3px; /* Размер внешнего правого отступа правого ограничителя у slider */
+    --slider-size-s-text-indentAll: 0 6px; /* Размер внешних отступов текста у s-slider */
+    --slider-size-s-range-after-positionTop: -8px; /* Размер верхнего отступа ограничителя у s-slider */
+
+    --slider-size-m-text-indentAll: 0 6px; /* Размер внешних отступов текста у m-slider */
+    --slider-size-m-range-after-positionTop: -11px; /* Размер верхнего отступа ограничителя у m-slider */
+    /* /Slider */
+
+
+    /* Tooltip */
+    --tooltip-size-s-content-spaceAll: 8px; /* Размер внутренних оступов у контента s-tooltip */
+
+    --tooltip-size-m-content-spaceAll: 9px 10px; /* Размер внутренних оступов у контента m-tooltip */
+
+    --tooltip-size-l-content-spaceAll: 18px; /* Размер внутренних оступов у контента l-tooltip */
+    /* Tooltip */
+
+}
+/* Размеры текста */
+/* Межстрочный интервал */
+.theme_size_default {
+    /* Размер текста */
+    --size-typo-xs: 11px;
+    --size-typo-s: 13px;
+    --size-typo-m: 15px;
+    --size-typo-l: 18px;
+    --size-typo-xl: 20px;
+    --size-typo-xxl: 24px;
+    --size-typo-xxxl: 32px;
+    --size-typo-xxxxl: 48px;
+    --size-typo-xxxxxl: 72px;
+    --size-typo-xxxxxxl: 96px;
+
+    /* Межстрочный интервал */
+    --line-height-typo-xs: 15px;
+    --line-height-typo-s: 18px;
+    --line-height-typo-m: 21px;
+    --line-height-typo-l: 25px;
+    --line-height-typo-xl: 28px;
+    --line-height-typo-xxl: 34px;
+    --line-height-typo-xxxl: 42px;
+    --line-height-typo-xxxxl: 62px;
+    --line-height-typo-xxxxxl: 82px;
+    --line-height-typo-xxxxxxl: 115px;
+
+
+
+    /* Page *//* /Page */
+
+
+    /* Attach */
+    --attach-control-lineHeight: 64px;
+
+    --attach-size-s-fontSize: 13px;
+    --attach-size-s-lineHeight: 28px;
+
+    --attach-size-m-fontSize: 15px;
+    --attach-size-m-lineHeight: 32px;
+    /* /Attach */
+
+
+    /* Button */
+    --button-size-s-font: 13px; /* Размер текста у s-button */
+    --button-size-s-lineHeight: 32px; /* Межстрочный интервал текста у s-button */
+
+    --button-size-m-font: 15px; /* Размер текста у m-button */
+    --button-size-m-lineHeight: 36px; /* Межстрочный интервал текста у m-button */
+
+    --button-size-l-font: 18px; /* Размер текста у l-button */
+    --button-size-l-lineHeight: 42px; /* Межстрочный интервал текста у l-button */
+    /* /Button */
+
+
+    /* Checkbox */
+    --checkbox-size-s-fontSize: 13px; /* Размер текста у m-checkbox */
+    /* /Checkbox */
+
+
+    /* Textinput */
+    --textinput-size-s-fontSize: 13px; /* Размер текста у s-textinput */
+
+    --textinput-size-m-fontSize: 15px; /* Размер текста у m-textinput */
+    /* /Textinput */
+
+
+    /* Link *//* /Link */
+
+
+    /* Progressbar *//* Progressbar */
+
+
+    /* Radio */
+    --radiobox-size-s-fontSize: 13px; /* Размер текста у s-radio */
+    --radiobox-size-s-lineHeight: 28px; /* Межстрочный интервал текста у s-radio */
+
+    --radiobox-size-m-fontSize: 15px; /* Размер текста у m-radio */
+    --radiobox-size-m-lineHeight: 32px; /* Межстрочный интервал текста у m-radio */
+    /* /Radio */
+
+
+    /* Radio-group */
+    --radioButton-size-s-fontSize: 13px; /* Размер текста у s-radioButton */
+    --radioButton-size-s-lineHeight: 28px; /* Межстрочный интервал текста у s-radio в списки (расстояние между radio) */
+
+    --radioButton-size-m-fontSize: 15px; /* Размер текста у m-radioButton */
+    --radioButton-size-m-lineHeight: 36px; /* Межстрочный интервал текста у m-radio в списки (расстояние между radio) */
+
+    --radioButton-size-l-fontSize: 18px; /* Размер текста у l-radioButton */
+    --radioButton-size-l-lineHeight: 42px; /* Межстрочный интервал текста у l-radio в списке  (расстояние между radio) */
+    /* /Radio-group */
+
+
+    /* Select *//* /Select */
+
+
+    /* Menu */
+    --menu-size-s-fontSize: 13px; /* Размер текста у s-menu */
+    --menu-size-s-lineHeight: 36px; /* Межстрочный интервал s-menu у s-menu */
+
+    --menu-size-m-fontSize: 15px; /* Размер текста m-menu у m-menu */
+    --menu-size-m-lineHeight: 40px; /* Межстрочный интервал у m-menu */
+    /* /Menu */
+
+
+    /* Textarea */
+    --textarea-size-s-fontSize: 13px; /* Размер текста у s-textarea */
+
+    --textarea-size-m-fontSize: 15px; /* Размер текста у m textarea */
+    /* Textarea */
+
+
+    /* Tumbler */
+    --tumbler-size-s-fontSize: 13px; /* Размер текста s-tumbler */
+    --tumbler-size-s-lineHeight: 20px; /* Межстрочный интервал текста у s-tumbler */
+
+    --tumbler-size-m-fontSize: 15px; /* Размер текста m-tumbler */
+    --tumbler-size-m-lineHeight: 22px; /* Межстрочный интервал текста у m-tumbler */
+    /* /Tumbler */
+
+
+    /* Spinner *//* /Spinner */
+
+
+    /* Slider */
+    --slider-size-s-fontSize: 13px; /* Размер текста у s-slider */
+
+    --slider-size-m-fontSize: 13px; /* Размер текста у m-slider */
+    /* /Slider */
+
+
+    /* Tooltip */
+    --tooltip-size-s-fontSize: 13px; /* Размер текста у s-tooltip */
+    --tooltip-size-s-lineHeight: 12px; /* Межстрочный интервал текста у s-tooltip */
+
+    --tooltip-size-m-fontSize: 15px; /* Размер текста у m-tooltip */
+    --tooltip-size-m-lineHeight: 14px; /* Межстрочный интервал текста у m-tooltip */
+
+    --tooltip-size-l-fontSize: 16px; /* Размер текста у l-tooltip */
+    --tooltip-size-l-lineHeight: 16px; /* Межстрочный интервал текста у l-tooltip */
+    /* /Tooltip */
+
+}
+/* Размеры отступа у контента */
+/* Размеры отступов в колонках */
+.theme_gap_small {
+    /* Размеры отступа у контента */
+    --gap: var(--space-xxxxl);
+
+    /* Размеры отступов в колонках */
+    --col-gap-third: var(--space-m);
+    --col-gap-half: var(--space-xl);
+    --col-gap-two-thirds: var(--space-xxxl);
+    --col-gap-full: var(--space-xxxxl);
+}
+.tpl-grid {
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+}
+.tpl-grid_xs-columns_2 { -ms-grid-columns: (1fr)[2]; grid-template-columns: repeat(2, 1fr); }
+.tpl-grid_xs-columns_3 { -ms-grid-columns: (1fr)[3]; grid-template-columns: repeat(3, 1fr); }
+@media screen and (max-width: 736px) {
+    .tpl-grid_xs-ratio_1-1-1 {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row wrap;
+            -ms-flex-flow: row wrap;
+                flex-flow: row wrap;
+        -ms-grid-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .tpl-grid_xs-ratio_1-1-1 .tpl-grid__fraction {
+        padding: var(--col-gap-half);
+        -moz-box-sizing: border-box;
+             box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 736px) {
+    .tpl-grid_xs-ratio_1-1 {
+        -ms-grid-columns: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+    }
+
+    .tpl-grid_xs-ratio_1-1 .tpl-grid__fraction {
+        padding: var(--col-gap-half);
+        -moz-box-sizing: border-box;
+             box-sizing: border-box;
+    }
+}
+@media screen and (min-width: 737px) {
+    .tpl-grid_s-ratio_1-1-1-1-1 { -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+    .tpl-grid_s-ratio_1-1-1-1 { -ms-grid-columns: 1fr 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr 1fr; }
+    .tpl-grid_s-ratio_1-1-1 { -ms-grid-columns: 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr; }
+    .tpl-grid_s-ratio_1-1 { -ms-grid-columns: 1fr 1fr; grid-template-columns: 1fr 1fr; }
+
+    .tpl-grid_s-columns_5 { -ms-grid-columns: (1fr)[5]; grid-template-columns: repeat(5, 1fr); }
+    .tpl-grid_s-columns_6 { -ms-grid-columns: (1fr)[6]; grid-template-columns: repeat(6, 1fr); }
+    .tpl-grid_s-columns_8 { -ms-grid-columns: (1fr)[8]; grid-template-columns: repeat(8, 1fr); }
+}
+@media screen and (min-width: 1024px) {
+    .tpl-grid_m-ratio_1-1-1-1-1 { -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+    .tpl-grid_m-ratio_1-1-1-1 { -ms-grid-columns: 1fr 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr 1fr; }
+    .tpl-grid_m-ratio_1-1-1 { -ms-grid-columns: 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr; }
+    .tpl-grid_m-ratio_1-1 { -ms-grid-columns: 1fr 1fr; grid-template-columns: 1fr 1fr; }
+
+    .tpl-grid_m-columns_12 { -ms-grid-columns: (1fr)[12]; grid-template-columns: repeat(12, 1fr); }
+    .tpl-grid_m-columns_10 { -ms-grid-columns: (1fr)[10]; grid-template-columns: repeat(10, 1fr); }
+    .tpl-grid_m-columns_6 { -ms-grid-columns: (1fr)[6]; grid-template-columns: repeat(6, 1fr); }
+}
+@media screen and (min-width: 1280px) {
+    .tpl-grid_l-ratio_1-1-1-1-1 { -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+    .tpl-grid_l-ratio_1-1-1-1 { -ms-grid-columns: 1fr 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr 1fr; }
+    .tpl-grid_l-ratio_1-1-1 { -ms-grid-columns: 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr; }
+    .tpl-grid_l-ratio_1-1 { -ms-grid-columns: 1fr 1fr; grid-template-columns: 1fr 1fr; }
+
+    .tpl-grid_l-columns_12 { -ms-grid-columns: (1fr)[12]; grid-template-columns: repeat(12, 1fr); }
+    .tpl-grid_l-columns_10 { -ms-grid-columns: (1fr)[10]; grid-template-columns: repeat(10, 1fr); }
+    .tpl-grid_l-columns_6 { -ms-grid-columns: (1fr)[6]; grid-template-columns: repeat(6, 1fr); }
+}
+@media screen and (min-width: 1440px) {
+    .tpl-grid_xl-ratio_1-1-1-1-1 { -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+    .tpl-grid_xl-ratio_1-1-1-1 { -ms-grid-columns: 1fr 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr 1fr; }
+    .tpl-grid_xl-ratio_1-1-1 { -ms-grid-columns: 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr; }
+    .tpl-grid_xl-ratio_1-1 { -ms-grid-columns: 1fr 1fr; grid-template-columns: 1fr 1fr; }
+
+    .tpl-grid_xl-columns_12 { -ms-grid-columns: (1fr)[12]; grid-template-columns: repeat(12, 1fr); }
+    .tpl-grid_xl-columns_10 { -ms-grid-columns: (1fr)[10]; grid-template-columns: repeat(10, 1fr); }
+    .tpl-grid_xl-columns_6 { -ms-grid-columns: (1fr)[6]; grid-template-columns: repeat(6, 1fr); }
+}
+.tpl-grid_ratio_1-1-1 {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+}
+.theme_capacity_default {
+
+    /* Page *//* /Page */
+    /* Attach *//* /Attach */
+
+
+    /* Button */
+    --button-size-s-height: 32px; /* Высота у s-button */
+    --button-size-s-icon-width: 28px; /* Ширина иконки у s-button */
+
+    --button-size-m-height: 36px; /* Высота у m-button */
+    --button-size-m-icon-width: 32px; /* Ширина иконки у m-button */
+
+    --button-size-l-height: 42px; /* Высота у l-button */
+    --button-size-l-icon-width: 40px; /* Ширина иконки у l-button */
+    --button-size-l-icon-width: 40px;/* Ширина иконки у l-button */
+    /* /Button */
+
+
+    /* Checkbox */
+    --checkbox-size-s-width: 14px; /* Ширина у m-checkbox */
+    --checkbox-size-s-height: 14px; /* Высота у m-checkbox */
+
+    --checkbox-size-m-width: 17px; /* Ширина у m-checkbox */
+    --checkbox-size-m-height: 17px; /* Высота у m-checkbox */
+    /* /Checkbox */
+
+
+    /* Textinput */
+    --textinput-size-s-height: 28px; /* Высота самого s-textinput */
+    --textinput-size-s-control-height: 28px; /* Высота контрола инпута s-textinput */
+    --textinput-size-s-icon-width: 28px; /* Ширина иконки у s-textinput */
+    --textinput-size-s-icon-height: 28px; /* Высота иконки у s-textinput */
+
+    --textinput-size-m-height: 36px; /* Высота самого m-textinput */
+    --textinput-size-m-control-height: 36px; /* Высота контрола m-textinput */
+    --textinput-size-m-icon-width: 36px; /* Ширина иконки у m-textinput */
+    --textinput-size-m-icon-height: 36px; /* Высота иконки у m-textinput */
+    /* /Textinput */
+
+
+    /* Link *//* /Link */
+
+
+    /* Progressbar */
+    --progressbar-height: 2px; /* Высота у progressbar */
+    /* /Progressbar */
+
+
+    /* Radio */
+    --radiobox-size-s-size: 13px; /* Размер бокса у s-radio */
+
+    --radiobox-size-m-size: 17px; /* Размер бокса у m-radio */
+
+    --radioButton-icon-width: 16px; /* Ширина иконки у radioButton */
+    --radioButton-icon-height: 16px; /* Высота иконки у radioButton */
+
+    --radiobox-size-s-after-size: 3px;
+    --radiobox-size-m-after-size: 5px;
+    /* /Radio */
+
+
+    /* Radio-group *//* /Radio-group */
+    /* Select *//* /Select */
+    /* Menu *//* /Menu */
+
+
+
+    /* Textarea */
+    --textarea-size-s-minWidth: 180px; /* Размер минимальной ширины у s-textarea */
+    --textarea-size-s-minHeight: 28px; /* Размер минимальной высоты у s-textarea */
+    --textarea-size-s-clear-width: 28px; /* Ширина очищающего контрола у s-textarea */
+    --textarea-size-s-clear-height: 28px; /* Высота очищающего контрола у s-textarea */
+
+    --textarea-size-m-minWidth: 200px; /* Размер минимальной ширины у m-textarea */
+    --textarea-size-m-minHeight: 32px; /* Размер минимальной высоты у m-textarea */
+    --textarea-size-m-clear-width: 32px; /* Ширина очищающего контрола у m-textarea */
+    --textarea-size-m-clear-height: 32px; /* Высота очищающего контрола у m-textarea */
+    /* /Textarea */
+
+
+    /* Tumbler */
+    --tumbler-size-s-width: 36px; /* Ширина s-tumbler */
+    --tumbler-size-s-height: 20px; /* Высота s-tumbler */
+    --tumbler-size-s-button-width: 16px; /* Ширина m-tumbler */
+    --tumbler-size-s-button-height: 16px; /* Высота m-tumbler */
+
+    --tumbler-size-m-width: 40px; /* Ширина m-tumbler */
+    --tumbler-size-m-height: 22px; /* Высота m-tumbler */
+    --tumbler-size-m-button-width: 18px; /* Ширина m-tumbler */
+    --tumbler-size-m-button-height: 18px; /* Высота m-tumbler */
+    /* /Tumbler */
+
+
+    /* Spiner */
+    --spin-size-xxs: 16px; /* Размер спинера у spiner */
+    --spin-size-xs: 24px; /* Размер спинера у spiner */
+    --spin-size-s: 28px; /* Размер спинера у spiner */
+    --spin-size-m: 32px; /* Размер спинера у spiner */
+    --spin-size-l: 38px; /* Размер спинера у spiner */
+    /* /Spiner */
+
+
+    /* Slider */
+    --slider-size-s-body-height: 28px; /* Высота у s-slider */
+    --slider-size-s-runner-minWidth: 28px; /* Размер минимальной ширины ползунков у s-slider */
+    --slider-size-s-range-height: 6px; /* Высота рельсы у s-slider */
+    --slider-size-s-range-after-height: 22px; /* Высота ограничителя у s-slider */
+
+    --slider-size-m-body-height: 32px; /* Высота m-slider */
+    --slider-size-m-runner-minWidth: 32px; /* Размер минимальной ширины ползунков у m-slider */
+    --slider-size-m-range-height: 6px; /* Высота рельсы у m-slider */
+    --slider-size-m-range-after-height: 30px; /* Высота ограничителя у m-slider */
+    /* /Slider */
+
+
+    /* Messagebox */
+    --message-box-tail-width: 22px; /* Ширина хвоста у message-box */
+    --message-box-tail-height: 10px; /* Высота хвоста у message-box */
+
+    --message-box-close-width: 16px; /* Ширина крестика у message-box */
+    --message-box-close-height: 16px; /* Высота крестика у message-box */
+
+    --message-box-size-s-content-maxWidth: 180px; /* Размер минимальной ширины контента у s-message-box */
+    --message-box-size-s-type-text-content-maxWidth: 260px; /* Размер текста у внутри контента у s-message-box */
+
+    --message-box-size-m-content-minWidth: 200px; /* Размер минимальной ширины контентау m-message-box */
+    --message-box-size-m-content-maxWidth: 280px; /* Размер текста внутри контента у m-message-box */
+
+    --message-box-size-l-content-minWidth: 300px; /* Размер минимальной ширины контента у l-message-box */
+    --message-box-size-l-content-maxWidth: 380px; /* Размер максимальной ширины контента у l-message-box */
+    --message-box-size-l-type-text-content-minWidth: 380px; /* Размер минимальной ширины текстового контента у l-message-box */
+
+    --message-box-size-xl-content-minWidth: 400px; /* Размер минимальной ширины контента у xl-message-box */
+    --message-box-size-xl-content-maxWidth: 480px; /* Размер максимальной ширины контента у xl-message-box */
+    /* /Messagebox */
+
+
+    /* Tooltip */
+    --tooltip-size-s-content-width: 12px; /* Размер ширины контента s-tooltip */
+    --tooltip-size-s-content-height: 12px; /* Размер высоты контента s-tooltip */
+    --tooltip-size-s-tail-size: 12px; /* Размер хвоста s-tooltip */ /* !!!! Прокинуть переменную */
+
+    --tooltip-size-m-content-width: 12px; /* Размер ширины контента m-tooltip */
+    --tooltip-size-m-content-height: 12px; /* Размер высоты контента m-tooltip */
+    --tooltip-size-m-tail-size: 12px; /* Размер хвоста m-tooltip */ /* !!!! Прокинуть переменную */
+
+    --tooltip-size-l-content-width: 18px; /* Размер ширины контента l-tooltip */
+    --tooltip-size-l-content-height: 18px; /* Размер высоты контента l-tooltip */
+    --tooltip-size-l-tail-size: 18px; /* Размер хвоста l-tooltip */ /* !!!! Прокинуть переменную */
+    /* Tooltip */
+
+}
+.theme_cosmetic_default {
+
+    /* Page */
+    --control-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* /Page */
+
+
+    /* Attach *//* /Attach */
+
+
+    /* Button */
+    --button-borderRadius: 3px; /* Радиус внутреннего блока (Нужно дотюнить через calc от внешненго) */
+    /* /Button */
+
+
+    /* Checkbox */
+    --checkbox-s-tip: url('../assets/tick-s.svg'); /*  */
+    --checkbox-m-tip: url('../assets/tick-m.svg'); /*  */
+    /* /Checkbox */
+
+
+    /* Textinput *//* /Textinput */
+
+
+    /* Link *//* /Link */
+
+
+    /* Progressbar *//* /Progresbar */
+
+
+    /* Radio *//* /Radio */
+
+
+    /* Radio-group */
+    --radioButton-borderRadius: 50%; /* Скругление внешних краев у radioButton */
+    --radioButton-before-borderRadius: 50%; /* Скругление внутреннийх краев у radioButton */
+    /* /Radio-group */
+
+
+    /* Select *//* /Select */
+
+
+    /* Menu */
+    --menu-group-borderWidth: 1px; /* Бордер у menu-group меню */
+    /* /Menu */
+
+
+    /* Textarea */
+    --textarea-borderWidth: 2px; /* Ширина бордера у textarea */
+    /* /Textarea */
+
+
+    /* Tumbler *//* /Tumbler */
+
+
+    /* Spiner *//* /Spiner */
+
+
+    /* Slider */
+    --slider-allowed-range-before-after-width: 1px; /* Высота ограничителя у slider */
+    /* /Slider */
+
+}
+.theme_breakpoint_default {
+    --screen-xs: 320px;
+    --screen-s: 720px;
+    --screen-m: 1024px;
+    --screen-l: 1280px;
+    --screen-xl: 1440px;
+    --screen-xxl: 1600px;
+
+    --screen-xs-max: 719px;
+    --screen-s-max: 1023px;
+    --screen-m-max: 1279px;
+    --screen-l-max: 1439px;
+    --screen-xl-max: 1599px;
+    --screen-xxl-max: 1920px;
+}
+.decorator_indent-b_xxxxl {
+    margin-bottom: var(--space-xxxxl);
+}
+.decorator_indent-b_m {
+    margin-bottom: var(--space-m);
+}
+[touch-action=auto] {
+    -ms-touch-action: auto;
+        touch-action: auto;
+}
+[touch-action=pan-y] {
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+}
+[touch-action=pan-x] {
+    -ms-touch-action: pan-x;
+        touch-action: pan-x;
+}
+[touch-action="pan-x pan-y"],
+[touch-action="pan-y pan-x"] {
+    -ms-touch-action: pan-x pan-y;
+        touch-action: pan-x pan-y;
+}
+.link__inner {
+    color: inherit;
+}
+.text_size_l {
+    font-size: var(--size-typo-l);
+    line-height: var(--line-height-typo-l);
+}
+.text_view_primary {
+    color: var(--color-typo-primary);
+}
+.text_weight_bold {
+    font-weight: 600;
+}
+.decorator_indent-b_xs {
+    margin-bottom: var(--space-xs);
+}
+/**
+ * 1. В IE9+ с помощью position:relative у <button> лечится супер эффект "нажимания".
+ *    Подробнее: http://stackoverflow.com/questions/6744406;
+ * 2. В IE8 нужно, чтобы элемент приобрел "layout" и применялись фильтры прозрачности.
+ *    Сделано на common для однообразности.
+ * 3. Если не прибить resize в Safari 8 у __text появляется "уголочек".
+ *    http://jing.yandex-team.ru/files/karamadjong/2015-03-18_1319.png
+ * 4. Устраняет проблему с mouseover/mouseout внутри кнопки.
+ */
+.button2__text {
+    position: relative; /*1*/
+
+    display: inline-block; /*2*/
+
+    resize: none; /*3*/
+    white-space: nowrap;
+    pointer-events: none; /*4*/
+}
+.button2__control {
+    display: none;
+}
+@media all and (min-width:0) {
+    .attach__button {
+        overflow: hidden;
+
+        cursor: default;
+        vertical-align: top;
+    }
+}
+/**
+ * 1. Хак для Chrome чтобы спрятать нативный инпут input[type=file]
+ *    Необходим из-за невозможности нормально выполнить cursor:pointer
+ *
+ * 2. Хак для  IE 11 для скрытия курсора — ISL-3557
+ *
+ */
+@media all and (min-width:0) {
+    .attach__control {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        display: block;
+        overflow: hidden; /*1*/
+
+        width: 100%;
+        height: 100%;
+
+        line-height: var(--attach-control-lineHeight); /*1*/
+        cursor: pointer;
+
+        opacity: 0;
+
+        -ms-touch-action: manipulation;
+
+            touch-action: manipulation;
+    }
+
+    .attach__control::-ms-value {
+        display: none; /*2*/
+    }
+}
+.attach__holder {
+    display: inline-block;
+
+    margin-left: .5em;
+
+    -webkit-user-select: none;
+
+       -moz-user-select: none;
+
+        -ms-user-select: none;
+
+            user-select: none;
+}
+.attach__holder .attach__text {
+    display: inline-block;
+    overflow: hidden;
+
+    cursor: pointer;
+    vertical-align: top;
+    text-overflow: ellipsis;
+}
+.attach__icon-file {
+    margin-right: 3px;
+    padding: 15px 15px 0 0;
+}
+/* files */
+.attach__holder_file_none .attach__icon-file,
+.attach__holder_file_unknown .attach__icon-file {
+    background-position: 0 0;
+}
+.attach__holder_file_archive .attach__icon-file {
+    background-position: -16px 0;
+}
+.attach__holder_file_gif .attach__icon-file {
+    background-position: -32px 0;
+}
+.attach__holder_file_jpg .attach__icon-file {
+    background-position: -48px 0;
+}
+.attach__holder_file_png .attach__icon-file {
+    background-position: -64px 0;
+}
+.attach__holder_file_eml .attach__icon-file {
+    background-position: -79px 0;
+}
+.attach__holder_file_exe .attach__icon-file {
+    background-position: -96px 0;
+}
+.attach__holder_file_video .attach__icon-file {
+    background-position: -112px 0;
+}
+.attach__holder_file_mov .attach__icon-file {
+    background-position: -127px 0;
+}
+.attach__holder_file_wmv .attach__icon-file {
+    background-position: -144px 0;
+}
+.attach__holder_file_mp4 .attach__icon-file {
+    background-position: -159px 0;
+}
+.attach__holder_file_avi .attach__icon-file {
+    background-position: -175px 0;
+}
+.attach__holder_file_xls .attach__icon-file {
+    background-position: -192px 0;
+}
+.attach__holder_file_doc .attach__icon-file {
+    background-position: -207px 0;
+}
+.attach__holder_file_txt .attach__icon-file {
+    background-position: -224px 0;
+}
+.attach__holder_file_pdf .attach__icon-file {
+    background-position: -239px 0;
+}
+.attach__holder_file_ppt .attach__icon-file {
+    background-position: -256px 0;
+}
+.attach__holder_file_audio .attach__icon-file {
+    background-position: -272px 0;
+}
+.attach__holder_file_mp3 .attach__icon-file {
+    background-position: -288px 0;
+}
+.attach__holder_file_wav .attach__icon-file {
+    background-position: -304px 0;
+}
+.attach__holder_file_wma .attach__icon-file {
+    background-position: -320px 0;
+}
+.attach__reset {
+    margin-left: var(--attach-reset-indentLeft);
+    padding: var(--attach-reset-spaceAll);
+
+    cursor: pointer;
+
+    opacity: .2;
+    background-size: 100% 100%;
+}
+.image {
+    font: 0/0 a;
+
+    border: 0;
+}
+.decorator_indent-b_s {
+    margin-bottom: var(--space-s);
+}
+.icon {
+    display: inline-block;
+
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+/**
+ * Для правильного позиционирования относительно baseline.
+ * Плюс высота блока начинает определяться по унаследованному line-height.
+ */
+.icon:after {
+    visibility: hidden;
+
+    content: '\00A0';
+}
+[aria-disabled="true"] .icon {
+    opacity: 0.5;
+}
+.icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.icon_has-glyph_yes {
+    position: relative;
+    color: var(--color-typo-primary);
+}
+.icon_has-glyph_yes svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+.icon_has-glyph_yes svg,
+.icon_has-glyph_yes svg * {
+    fill: currentColor;
+}
+.checkbox__box {
+    position: relative;
+    z-index: 0;
+
+    display: inline-block;
+
+    line-height: normal; /* Чтобы не наследовался line-height. */
+}
+.checkbox__box:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    content: '';
+}
+/* Для правильного выравнивания по baseline. */
+.checkbox__box:after {
+    visibility: hidden;
+
+    content: '\00A0';
+}
+.checkbox__box {
+    cursor: pointer;
+}
+.checkbox_disabled_yes .checkbox__box {
+    cursor: default;
+}
+.checkbox__box:before {
+    -webkit-transition: .1s ease-out;
+    transition: .1s ease-out;
+    -webkit-transition-property: border-color, border-width, background-color;
+    transition-property: border-color, border-width, background-color;
+}
+.checkbox__tick {
+    position: absolute;
+    z-index: 3;
+
+    visibility: hidden;
+
+    pointer-events: none;
+}
+.checkbox_checked_yes .checkbox__tick {
+    visibility: visible;
+}
+/*
+.checkbox_view_classic .checkbox__tick {
+    background: 50% no-repeat;
+}
+
+.checkbox_view_classic.checkbox_size_s .checkbox__tick {
+    background-image: var(--checkbox-s-tip);
+}
+
+.checkbox_view_classic.checkbox_size_n .checkbox__tick,
+.checkbox_view_classic.checkbox_size_m .checkbox__tick {
+    background-image: var(--checkbox-m-tip);
+}
+*/
+/**
+ * 1. Хак с отложенным переходом visibility:hidden/visible.
+ *    Подробнее: http://www.greywyvern.com/?post=337
+ */
+.checkbox_view_classic .checkbox__tick {
+    opacity: 0;
+
+    -webkit-transition: bottom .05s, opacity .05s, visibility 0s .05s;
+
+    transition: bottom .05s, opacity .05s, visibility 0s .05s; /*1*/
+    -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+}
+.checkbox_view_classic.checkbox_checked_yes .checkbox__tick {
+    opacity: 1;
+
+    -webkit-transition-delay: 0s;
+
+            transition-delay: 0s; /*1*/
+}
+.checkbox__control {
+    position: absolute;
+    z-index: 4;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    opacity: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+.checkbox__control {
+    cursor: pointer;
+}
+.checkbox_disabled_yes .checkbox__control {
+    cursor: default;
+}
+.icon_glyph_carets-v svg {
+    width: 8px;
+    height: 14px;
+}
+.icon_size_s {
+    width: 16px;
+    height: 16px;
+}
+.icon_glyph_type-arrow.icon_direction_left {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+}
+.icon_glyph_type-arrow.icon_direction_top {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+}
+.icon_glyph_type-arrow.icon_direction_right {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+}
+.icon_glyph_type-arrow svg {
+    width: 13px;
+    height: 8px;
+}
+.icon_glyph_type-arrow.icon_size_xs svg {
+    width: 11px;
+    height: 7px;
+}
+/**
+ * Декоративная анимация только на desktop.
+ */
+.icon_glyph_type-arrow {
+    -webkit-transition: -webkit-transform .1s ease-out;
+    transition: -webkit-transform .1s ease-out;
+    transition: transform .1s ease-out;
+    transition: transform .1s ease-out, -webkit-transform .1s ease-out;
+}
+.icon_glyph_type-check svg {
+    width: 16px;
+    height: 10px;
+}
+.icon_glyph_type-close svg {
+    width: 10px;
+    height: 10px;
+}
+.icon_glyph_type-cross svg {
+    width: 14px;
+    height: 14px;
+}
+.icon_glyph_type-cross.icon_size_xs svg {
+    width: 10px;
+    height: 10px;
+}
+.icon_glyph_type-filter svg {
+    width: 20px;
+    height: 16px;
+}
+.icon_glyph_x-sign.icon_size_xs,
+.icon_glyph_x-sign.icon_size_xs svg {
+    width: 16px;
+    height: 16px;
+}
+.icon_glyph_x-sign.icon_size_s,
+.icon_glyph_x-sign.icon_size_s svg {
+    width: 20px;
+    height: 20px;
+}
+.icon_glyph_x-sign.icon_size_m,
+.icon_glyph_x-sign.icon_size_m svg {
+    width: 24px;
+    height: 24px;
+}
+.text_size_m {
+    font-size: var(--size-typo-m);
+    line-height: var(--line-height-typo-m);
+}
+.text_view_link {
+    color: var(--color-link);
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        color: var(--color-link-hover);
+    }
+}
+.radiobox__radio {
+    position: relative;
+
+    -ms-touch-action: manipulation;
+
+        touch-action: manipulation;
+}
+.radiobox__box {
+    position: relative;
+
+    display: inline-block;
+}
+.radio-button__control {
+    position: absolute; /*left: -1000px;*/
+
+    opacity: 0;
+}
+.radio-button__control {
+    cursor: pointer;
+}
+.radio-button__text {
+    position: relative;
+    z-index: 1;
+
+    padding: 0 1em;
+
+    pointer-events: none;
+}
+.decorator_indent-b_l {
+    margin-bottom: var(--space-l);
+}
+/**
+ * Селектор усиливается, чтобы перебить text-align: center; в button2.
+ * https://st.yandex-team.ru/ISL-4691
+ **/
+.select2__button.select2__button {
+    text-align: left;
+}
+/**
+ * 1. Устраняет проблему с mouseover/mouseout внутри кнопки.
+ * 2. В IE9+ с помощью position:relative у <button> лечится супер эффект "нажимания".
+ *    Подробнее: http://stackoverflow.com/questions/6744406.
+ * 3. Селектор усиливается, чтобы перебить position: relative у icon_type_glyph.
+ */
+.button2 .button2__icon {
+    position: relative; /*2*/
+
+    pointer-events: none; /*1*/
+}
+.button2 .button2__icon_side_left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.button2 .button2__icon_side_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.decorator_indent-b_xl {
+    margin-bottom: var(--space-xl);
+}
+.textinput__box {
+    position: absolute;
+    z-index: 1; /* рисуем первым уровнем, чтобы сверху класть контрол и иконки */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    -moz-box-sizing: border-box;
+
+         box-sizing: border-box;
+
+    border-style: solid;
+}
+.textinput__control {
+    position: relative;
+    z-index: 2; /* рисуем поверх __box, чтобы сверху класть иконки */
+
+    -moz-box-sizing: border-box;
+
+         box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    vertical-align: top;
+
+    border: 0 solid transparent;
+    outline: 0;
+    background: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.textinput_disabled_yes .textinput__control {
+    z-index: 3;
+
+    cursor: default;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+/* Лишние отступы у текста */
+.textinput__control::-webkit-search-decoration {
+    -webkit-appearance: none;
+            appearance: none;
+}
+/* Нативный крестик */
+.textinput__control::-webkit-search-cancel-button {
+    display: none;
+}
+.textinput__control::-ms-clear {
+    display: none;
+}
+/* Сбрасываем желтый background у инпутов при автозаполнении */
+/* Усиление, чтобы перебить стили border у _size_ */
+.textinput__control.textinput__control:-webkit-autofill {
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    background-clip: content-box;
+    box-shadow: inset 0 0 0 50px #fff;
+    -webkit-text-fill-color: #000;
+}
+.textinput__control::-moz-placeholder {
+    opacity: 1; /*В firefox полупрозрачный по умолчанию*/
+}
+.slider__scale {
+    position: relative;
+    z-index: 6;
+}
+.slider__mark {
+    position: absolute;
+
+    padding-top: .1em;
+}
+.slider__allowed-range {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+
+    display: none;
+}
+.slider__allowed-range_visibility_visible {
+    display: block;
+}
+.slider__allowed-range:before,
+.slider__allowed-range:after {
+    position: absolute;
+
+    width: var(--slider-allowed-range-before-after-width);
+
+    content: '';
+
+    border-left: 1px solid var(--color-control-bg-border-default);
+}
+.slider_disabled_yes .slider__allowed-range:before,
+.slider_disabled_yes .slider__allowed-range:after {
+    border-left: 1px solid var(--color-control-bg-border-default-disable);
+}
+.slider__allowed-range:before {
+    left: 0;
+}
+.slider__allowed-range:after {
+    right: 0;
+}
+.slider_type_range .slider__allowed-range:before {
+    left: var(--slider-allowed-range-before-indentLeft);
+}
+.slider_type_range .slider__allowed-range:after {
+    right: var(--slider-allowed-range-after-indentRight);
+}
+.slider__range {
+    position: absolute;
+    top: 50%;
+}
+.slider__range_position_last {
+    right: 0;
+    left: auto;
+}
+.slider__click {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+.slider__title {
+    font-weight: bold;
+    color: var(--color-control-typo-primary);
+}
+.slider_disabled_yes .slider__title {
+    opacity: .5;
+}
+.textinput__clear {
+    right: 0;
+
+    display: none;
+    visibility: hidden;
+
+    cursor: pointer;
+}
+.textinput_view_classic .textinput__clear {
+    opacity: 0;
+}
+.textinput__clear {
+    -webkit-transition: opacity .1s ease-out, visibility 0s linear .1s;
+    transition: opacity .1s ease-out, visibility 0s linear .1s;
+}
+/* icon_has-glyph выставляет по умолчанию position: relative, но нет гарантий, что он приедет раньше */
+.textinput__icon.textinput__icon {
+    position: absolute;
+}
+.textinput__icon {
+    z-index: 3; /* рисуем поверх __box и __control */
+    top: 0;
+}
+.textinput__icon_side_right {
+    right: 0;
+}
+.slider .slider__unit {
+    color: var(--color-control-typo-primary);
+}
+.slider_disabled_yes .slider__unit {
+    opacity: .5;
+}
+.spin2 {
+    display: none;
+
+    -moz-box-sizing: border-box;
+
+         box-sizing: border-box;
+
+    border: 2px solid transparent;
+    border-radius: 100px; /* На android 2.3 border-radius в % не поддерживается */
+    /*
+     * Поддержка CSS анимаций и CSS градиентов у основных браузеров совпадает
+     * Если браузер не поддерживает градиенты, будет показана gif-анимация
+     */
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+}
+/* Для правильного позиционирования блока относительно baseline */
+.spin2:after {
+    visibility: hidden;
+
+    content: '\00A0'; /* &nbsp; */
+}
+.spin2_size_l {
+    width: var(--spin-size-l);
+    height: var(--spin-size-l);
+
+    font-size: 18px;
+    line-height: 34px;
+
+    background-position: -2px -106px;
+}
+.spin2_size_l.spin2_position_center {
+    /* Отступ равен половине ширины */
+    margin-top: -webkit-calc(var(--spin-size-l) / -2);
+    margin-top: calc(var(--spin-size-l) / -2);
+    margin-left: -webkit-calc(var(--spin-size-l) / -2);
+    margin-left: calc(var(--spin-size-l) / -2);
+}
+.spin2_size_m {
+    width: var(--spin-size-m);
+    height: var(--spin-size-m);
+
+    font-size: 15px;
+    line-height: 28px;
+
+    background-position: -2px -73px;
+}
+.spin2_size_m.spin2_position_center {
+    /* Отступ равен половине ширины */
+    margin-top: -webkit-calc(var(--spin-size-m) / -2);
+    margin-top: calc(var(--spin-size-m) / -2);
+    margin-left: -webkit-calc(var(--spin-size-m) / -2);
+    margin-left: calc(var(--spin-size-m) / -2);
+}
+.spin2_size_s {
+    width: var(--spin-size-s);
+    height: var(--spin-size-s);
+
+    font-size: 13px;
+    line-height: 24px;
+
+    background-position: -2px -44px;
+}
+.spin2_size_s.spin2_position_center {
+    /* Отступ равен половине ширины */
+    margin-top: -webkit-calc(var(--spin-size-s) / -2);
+    margin-top: calc(var(--spin-size-s) / -2);
+    margin-left: -webkit-calc(var(--spin-size-s) / -2);
+    margin-left: calc(var(--spin-size-s) / -2);
+}
+.spin2_size_xs {
+    width: var(--spin-size-xs);
+    height: var(--spin-size-xs);
+
+    font-size: 13px;
+    line-height: 20px;
+
+    background-position: -2px -19px;
+}
+.spin2_size_xs.spin2_position_center {
+    /* Отступ равен половине ширины */
+    margin-top: -webkit-calc(var(--spin-size-xs) / -2);
+    margin-top: calc(var(--spin-size-xs) / -2);
+    margin-left: -webkit-calc(var(--spin-size-xs) / -2);
+    margin-left: calc(var(--spin-size-xs) / -2);
+}
+.decorator_indent-b_xxl {
+    margin-bottom: var(--space-xxl);
+}
+.tabs-panes__pane {
+    display: none;
+}
+.tabs-panes__pane_active_yes {
+    display: block;
+}
+.textarea__box {
+    position: absolute;
+    z-index: 1; /* рисуем первым уровнем, чтобы сверху класть контрол и иконки */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.textarea__wrap {
+    display: block;
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+}
+.textarea__control {
+    position: relative;
+    z-index: 2; /* рисуем поверх __box, чтобы сверху класть иконки */
+
+    -moz-box-sizing: border-box;
+
+         box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    font-size: 100%;
+    resize: none;
+    vertical-align: top;
+
+    border: var(--textarea-borderWidth) solid transparent;
+    outline: 0;
+    background: none;
+}
+.textarea_disabled_yes .textarea__control {
+    z-index: 3;
+
+    cursor: default;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+/* Лишние отступы у текста */
+.textarea__control::-webkit-search-decoration {
+    -webkit-appearance: none;
+            appearance: none;
+}
+/* Нативный крестик */
+.textarea__control::-webkit-search-cancel-button {
+    display: none;
+}
+.textarea__control::-ms-clear {
+    display: none;
+}
+/* Сбрасываем желтый background у инпутов при автозаполнении */
+.textarea__control:-webkit-autofill {
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    background-clip: content-box;
+    box-shadow: inset 0 0 0 50px #fff;
+    -webkit-text-fill-color: #000;
+}
+.textarea__control::-moz-placeholder {
+    opacity: 1; /*В firefox полупрозрачный по умолчанию*/
+}
+.textarea__clear {
+    z-index: 3; /* рисуем поверх __box и __control */
+    top: 0;
+    right: 0;
+
+    visibility: hidden;
+
+    cursor: pointer;
+
+    opacity: 0;
+}
+.textarea_has-clear_yes .textarea__clear {
+    position: absolute;
+}
+.textarea__clear {
+    color: var(--color-control-typo-ghost);
+}
+.textarea__clear_hovered_yes {
+    color: var(--color-control-typo-primary);
+}
+.tooltip__backdrop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.tooltip__backdrop:before {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    border-radius: .1px;
+
+    background: var(--color-control-bg-default);
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,.4);
+}
+/* NOTE: ISL-5672 */
+.tooltip_shown_yes .tooltip__backdrop {
+    z-index: -1;
+}
+.popup2__tail {
+    position: absolute;
+    z-index: 1;
+
+    width: 10px;
+    height: 10px;
+}
+.popup2_direction_top-left .popup2__tail,
+.popup2_direction_top-center .popup2__tail,
+.popup2_direction_top-right .popup2__tail {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+}
+.popup2_direction_bottom-left .popup2__tail,
+.popup2_direction_bottom-center .popup2__tail,
+.popup2_direction_bottom-right .popup2__tail {
+    -webkit-transform: rotate(135deg);
+            transform: rotate(135deg);
+}
+.popup2_direction_left-top .popup2__tail,
+.popup2_direction_left-center .popup2__tail,
+.popup2_direction_left-bottom .popup2__tail {
+    -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+}
+.popup2_direction_right-top .popup2__tail,
+.popup2_direction_right-center .popup2__tail,
+.popup2_direction_right-bottom .popup2__tail {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+/* Базовый цвет содержимого, от которого выстраиваются цвета текста, иконок, ... */
+/* Базовый цвет поверхностей */
+/* Цвет фона контрола */
+/* Цвет основного текста контрола */
+.theme_color_yandex-success {
+    --color-control-bg-default: rgb(0, 152, 95); /* Цвет фона контрола */
+    --color-control-typo-passive: #fff; /* Цвет основного текста контрола */
+}
+/* Базовый цвет содержимого, от которого выстраиваются цвета текста, иконок, ... */
+/* Базовый цвет поверхностей */
+/* Цвет фона контрола */
+/* Цвет основного текста контрола */
+.theme_color_yandex-warning {
+    --color-control-bg-default: rgb(255, 153, 0); /* Цвет фона контрола */
+    --color-control-typo-passive: #fff; /* Цвет основного текста контрола */
+}
+/* Базовый цвет содержимого, от которого выстраиваются цвета текста, иконок, ... */
+/* Базовый цвет поверхностей */
+/* Цвет фона контрола */
+/* Цвет основного текста контрола */
+.theme_color_yandex-alert {
+    --color-control-bg-default: rgb(255, 51, 51); /* Цвет фона контрола */
+    --color-control-typo-passive: #fff; /* Цвет основного текста контрола */
+}
+/* Базовый цвет содержимого, от которого выстраиваются цвета текста, иконок, ... */
+/* Базовый цвет поверхностей */
+/* Цвет фона контрола */
+/* Цвет основного текста контрола */
+.theme_color_yandex-system {
+    --color-control-bg-default: rgb(119, 138, 155); /* Цвет фона контрола */
+    --color-control-typo-passive: #fff; /* Цвет основного текста контрола */
+}
+/* Базовый цвет содержимого, от которого выстраиваются цвета текста, иконок, ... */
+/* Базовый цвет поверхностей */
+/* Цвет фона контрола */
+/* Цвет основного текста контрола */
+.theme_color_yandex-normal {
+    --color-control-bg-default: rgb(221, 227, 229); /* Цвет фона контрола */
+    --color-control-typo-passive: #000; /* Цвет основного текста контрола */
+}
+.tumbler__label {
+    display: inline-block;
+
+    cursor: pointer;
+}
+.tumbler__sticker {
+    position: absolute;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    border-radius: 3px;
+
+    -webkit-transition: width .15s ease-out;
+
+    transition: width .15s ease-out;
+}
+.tumbler_pressed_yes .tumbler__sticker {
+    -webkit-transition: none;
+    transition: none;
+    -o-transition-duration: 0s;
+}
+/* .tumbler.tumbler_checked_yes для нужного веса селектора */
+.tumbler.tumbler_checked_yes.tumbler_checked_yes .tumbler__sticker_position_right {
+    width: 0;
+}
+.tumbler__sticker-label {
+    position: relative;
+}
+.tumbler__sticker_position_left .tumbler__sticker-label {
+    float: right;
+}
+
+
+
+.attach__holder_state_hidden .image {
+    display: none;
+}
+.icon_glyph_type-tick,
+.icon_glyph_type-tick svg {
+    width: 12px;
+    height: 10px;
+}
+.slider__info_preset_inline {
+    text-align: right;
+}
+.slider__info_preset_inline .slider__title {
+    float: left;
+}
+.slider__info_preset_inline .slider__title {
+    line-height: 170%;
+}
+.slider__info_preset_inline {
+    margin-bottom: .8em;
+}
+.slider__info_preset_inline .slider__input {
+    display: inline-block;
+
+    width: 25%;
+    margin-right: .5em;
+}
+/** У блока textinput нет line-height, но есть vertical-aling.
+ * При таком сочетании __unit позиционируется неправильно.
+ */
+.slider__info_preset_inline .textinput_size_n ~ .slider__unit {
+    line-height: 36px;
+}
+.slider__info_preset_inline .textinput_size_m ~ .slider__unit {
+    line-height: 32px;
+}
+.slider__info_preset_inline .textinput_size_s ~ .slider__unit {
+    line-height: 28px;
+}
+.slider__info_preset_inline .textinput_size_xs ~ .slider__unit {
+    line-height: 24px;
+}
+.textinput__icon_side_left {
+    left: 0;
+}
+.textinput__clear.textinput__clear_visible_yes {
+    display: block;
+    visibility: visible;
+}
+.textinput_disabled_yes .textinput__clear_visible_yes {
+    z-index: 0; /* Понижаем под __control и __box */
+
+    cursor: default;
+}
+.textinput_view_classic .textinput__clear.textinput__clear_visible_yes {
+    opacity: .3;
+}
+.textinput_view_classic .textinput__clear_visible_yes.textinput__clear_hovered_yes,
+.textinput_view_classic .textinput__clear_visible_yes.textinput__clear:hover {
+    opacity: 1;
+}
+.textinput_view_classic.textinput_disabled_yes .textinput__clear_visible_yes {
+    opacity: .1;
+}
+/*
+  (1) https://st.yandex-team.ru/ISL-6342
+      Добавлена задержка начала анимации, что заставляет её нормально работать в iOS 12-
+
+      Решение взято отсюда:
+      https://stackoverflow.com/questions/29219534/css-animation-not-always-starting-in-ios-8-safari
+*/
+.spin2_progress_yes {
+    display: inline-block;
+
+    border-top-color: var(--color-control-bg-progress);
+    border-left-color: var(--color-control-bg-progress);
+
+    -webkit-animation: islands-spin2 1s 0.21s infinite linear;
+
+            animation: islands-spin2 1s 0.21s infinite linear; /* (1) */
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;  /* Для ускорения анимации */
+}
+@-webkit-keyframes islands-spin2 {
+    from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+@keyframes islands-spin2 {
+    from {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+    }
+}
+.textarea .textarea__clear_visible_yes {
+    visibility: visible;
+
+    opacity: .3;
+}
+.textarea_disabled_yes .textarea__clear_visible_yes {
+    z-index: 0; /* Понижаем под __control и __box */
+
+    opacity: .1;
+}
+.example__unit  {
+    width: 40px;
+    height: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+.progress {
+    width: 0;
+    height: var(--progressbar-height);
+
+    background-color: var(--color-control-bg-progress);
+}
+.progress_timing_linear {
+    -webkit-transition: width .2s linear;
+    transition: width .2s linear;
+}
+/**
+ * 1. В FF необходимо обнулить font-size либо line-height,
+ *    иначе высота блока будет больше чем его содержимое
+ */
+.select2 {
+    display: inline-block;
+
+    max-width: 100%;
+
+    font-size: 0; /* 1 */
+    vertical-align: bottom;
+}
+.select2__control {
+    position: absolute;
+    left: -10000px;
+}
+/**
+ * Без important стили класса перебиваются inline-стилями
+ */
+.popup2 {
+    position: absolute;
+}
+.popup2_outside_yes {
+    top: -10000px !important;
+    left: -10000px !important;
+
+    display: block !important;
+}
+/** FROM common.blocks/popup2/_view/popup2_view_default.css */
+.popup2.popup2_view_default {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 1.5ex 2ex -1ex rgba(0,0,0,.3);
+}
+.popup2.popup2_view_default:before {
+    border-radius: 4px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
+}
+.popup2.popup2_view_default .popup2__tail:before {
+    top: 0;
+    right: 0;
+}
+/**
+ * Необходимо, чтобы сохранить скругленные края попапа,
+ * даже если у вложенного элемента скругления не будет.
+ */
+.popup2.popup2_view_default > :first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.popup2.popup2_view_default > :last-child {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+/** FROM common.blocks/popup2/_tone/popup2_tone_default.css */
+.popup2.popup2_view_default {
+    color: var(--color-typo-primary);
+    background-color: var(--color-bg-default);
+}
+.popup2.popup2_view_default:before {
+    background-color: transparent;
+}
+.popup2_view_default .popup2__tail:after {
+    background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, var(--color-bg-default)), color-stop(50%, transparent));
+    background-image: -webkit-linear-gradient(bottom left, var(--color-bg-default) 50%, transparent 50%);
+    background-image: linear-gradient(to top right, var(--color-bg-default) 50%, transparent 50%);
+}
+/** FROM common.blocks/popup2/_theme/popup2_theme_clear.css */
+.popup2_view_clear {
+    display: none;
+}
+.popup2_view_clear.popup2_visible_yes {
+    display: block;
+}
+/** FROM common.blocks/popup2/_theme/popup2_theme_normal.css */
+/*
+ * 1. Предотвращает пропадание тени в iOS. https://st.yandex-team.ru/ISLCOMPONENTS-1710
+ */
+.popup2_view_default {
+    visibility: hidden;
+
+    -moz-box-sizing: border-box;
+
+         box-sizing: border-box;
+    margin: -9999px 0 0 -9999px;
+
+    border: 1px solid rgba(0,0,0,.06);
+
+    -webkit-animation-duration: .1s;
+
+            animation-duration: .1s;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+
+    -webkit-animation-fill-mode: forwards;
+
+            animation-fill-mode: forwards;
+}
+.popup2_view_default .popup2__tail:before {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 0;
+    left: 0;
+
+    content: '';
+
+    border: 1px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, .06);
+    border-left-color: rgba(0, 0, 0, .06);
+}
+.popup2_view_default .popup2__tail:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 1px;
+    left: 1px;
+
+    content: '';
+
+    background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, #fff), color-stop(50%, transparent));
+
+    background-image: -webkit-linear-gradient(bottom left, #fff 50%, transparent 50%);
+
+    background-image: linear-gradient(to top right, #fff 50%, transparent 50%);
+}
+.popup2_view_default:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    content: '';
+
+    border-radius: .1px; /*1*/
+    box-shadow: 0 10px 20px -5px rgba(0,0,0,.4);
+}
+/* NOTE: ISL-5672 */
+.popup2_view_default.popup2_visible_yes:before {
+    z-index: -1;
+}
+.popup2_view_default.popup2_js_inited {
+    display: block;
+}
+.popup2_view_default.popup2_visible_yes {
+    visibility: visible;
+
+    margin: 0;
+}
+.popup2_view_default.popup2_direction_bottom-left,
+.popup2_view_default.popup2_direction_bottom-center,
+.popup2_view_default.popup2_direction_bottom-right {
+    -webkit-animation-name: popup2_theme_normal_bottom;
+            animation-name: popup2_theme_normal_bottom;
+}
+.popup2_view_default.popup2_direction_bottom-left.popup2_visible_yes,
+.popup2_view_default.popup2_direction_bottom-center.popup2_visible_yes,
+.popup2_view_default.popup2_direction_bottom-right.popup2_visible_yes {
+    -webkit-animation-name: popup2_theme_normal_bottom_visible;
+            animation-name: popup2_theme_normal_bottom_visible;
+}
+.popup2_view_default.popup2_direction_top-left,
+.popup2_view_default.popup2_direction_top-center,
+.popup2_view_default.popup2_direction_top-right {
+    -webkit-animation-name: popup2_theme_normal_top;
+            animation-name: popup2_theme_normal_top;
+}
+.popup2_view_default.popup2_direction_top-left.popup2_visible_yes,
+.popup2_view_default.popup2_direction_top-center.popup2_visible_yes,
+.popup2_view_default.popup2_direction_top-right.popup2_visible_yes {
+    -webkit-animation-name: popup2_theme_normal_top_visible;
+            animation-name: popup2_theme_normal_top_visible;
+}
+.popup2_view_default.popup2_direction_right-top,
+.popup2_view_default.popup2_direction_right-center,
+.popup2_view_default.popup2_direction_right-bottom {
+    -webkit-animation-name: popup2_theme_normal_right;
+            animation-name: popup2_theme_normal_right;
+}
+.popup2_view_default.popup2_direction_right-top.popup2_visible_yes,
+.popup2_view_default.popup2_direction_right-center.popup2_visible_yes,
+.popup2_view_default.popup2_direction_right-bottom.popup2_visible_yes {
+    -webkit-animation-name: popup2_theme_normal_right_visible;
+            animation-name: popup2_theme_normal_right_visible;
+}
+.popup2_view_default.popup2_direction_left-top,
+.popup2_view_default.popup2_direction_left-center,
+.popup2_view_default.popup2_direction_left-bottom {
+    -webkit-animation-name: popup2_theme_normal_left;
+            animation-name: popup2_theme_normal_left;
+}
+.popup2_view_default.popup2_direction_left-top.popup2_visible_yes,
+.popup2_view_default.popup2_direction_left-center.popup2_visible_yes,
+.popup2_view_default.popup2_direction_left-bottom.popup2_visible_yes {
+    -webkit-animation-name: popup2_theme_normal_left_visible;
+            animation-name: popup2_theme_normal_left_visible;
+}
+@-webkit-keyframes popup2_theme_normal_bottom {
+    0% {
+        visibility: visible;
+
+        margin: 0;
+
+        opacity: 1;
+
+        -webkit-transform: translateY(0);
+
+                transform: translateY(0);
+    }
+    99% {
+        margin: 0;
+
+        -webkit-transform: translateY(10px);
+
+                transform: translateY(10px);
+    }
+    100% {
+        visibility: hidden;
+
+        margin: -9999px 0 0 -9999px;
+
+        opacity: 0;
+    }
+}
+@keyframes popup2_theme_normal_bottom {
+    0% {
+        visibility: visible;
+
+        margin: 0;
+
+        opacity: 1;
+
+        -webkit-transform: translateY(0);
+
+                transform: translateY(0);
+    }
+    99% {
+        margin: 0;
+
+        -webkit-transform: translateY(10px);
+
+                transform: translateY(10px);
+    }
+    100% {
+        visibility: hidden;
+
+        margin: -9999px 0 0 -9999px;
+
+        opacity: 0;
+    }
+}
+@-webkit-keyframes popup2_theme_normal_bottom_visible {
+    0% {
+        opacity: 0;
+
+        -webkit-transform: translateY(10px);
+
+                transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+
+        -webkit-transform: translateY(0);
+
+                transform: translateY(0);
+    }
+}
+@keyframes popup2_theme_normal_bottom_visible {
+    0% {
+        opacity: 0;
+
+        -webkit-transform: translateY(10px);
+
+                transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+
+        -webkit-transform: translateY(0);
+
+                transform: translateY(0);
+    }
+}
+@-webkit-keyframes popup2_theme_normal_top {
+    0% {
+        visibility: visible;
+
+        margin: 0;
+
+        opacity: 1;
+
+        -webkit-transform: translateY(0);
+
+                transform: translateY(0);
+    }
+    99% {
+        margin: 0;
+
+        -webkit-transform: translateY(-10px);
+
+                transform: translateY(-10px);
+    }
+    100% {
+        visibility: hidden;
+
+        margin: -9999px 0 0 -9999px;
+
+        opacity: 0;
+    }
+}
+@keyframes popup2_theme_normal_top {
+    0% {
+        visibility: visible;
+
+        margin: 0;
+
+        opacity: 1;
+
+        -webkit-transform: translateY(0);
+
+                transform: translateY(0);
+    }
+    99% {
+        margin: 0;
+
+        -webkit-transform: translateY(-10px);
+
+                transform: translateY(-10px);
+    }
+    100% {
+        visibility: hidden;
+
+        margin: -9999px 0 0 -9999px;
+
+        opacity: 0;
+    }
+}
+@-webkit-keyframes popup2_theme_normal_top_visible {
+    0% {
+        opacity: 0;
+
+        -webkit-transform: translateY(-10px);
+
+                transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+
+        -webkit-transform: translateY(0);
+
+                transform: translateY(0);
+    }
+}
+@keyframes popup2_theme_normal_top_visible {
+    0% {
+        opacity: 0;
+
+        -webkit-transform: translateY(-10px);
+
+                transform: translateY(-10px);
+    }
+    100% {
+        opacity: 1;
+
+        -webkit-transform: translateY(0);
+
+                transform: translateY(0);
+    }
+}
+@-webkit-keyframes popup2_theme_normal_right {
+    0% {
+        visibility: visible;
+
+        margin: 0;
+
+        opacity: 1;
+
+        -webkit-transform: translateX(0);
+
+                transform: translateX(0);
+    }
+    99% {
+        margin: 0;
+
+        -webkit-transform: translateX(10px);
+
+                transform: translateX(10px);
+    }
+    100% {
+        visibility: hidden;
+
+        margin: -9999px 0 0 -9999px;
+
+        opacity: 0;
+    }
+}
+@keyframes popup2_theme_normal_right {
+    0% {
+        visibility: visible;
+
+        margin: 0;
+
+        opacity: 1;
+
+        -webkit-transform: translateX(0);
+
+                transform: translateX(0);
+    }
+    99% {
+        margin: 0;
+
+        -webkit-transform: translateX(10px);
+
+                transform: translateX(10px);
+    }
+    100% {
+        visibility: hidden;
+
+        margin: -9999px 0 0 -9999px;
+
+        opacity: 0;
+    }
+}
+@-webkit-keyframes popup2_theme_normal_right_visible {
+    0% {
+        opacity: 0;
+
+        -webkit-transform: translateX(10px);
+
+                transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+
+        -webkit-transform: translateX(0);
+
+                transform: translateX(0);
+    }
+}
+@keyframes popup2_theme_normal_right_visible {
+    0% {
+        opacity: 0;
+
+        -webkit-transform: translateX(10px);
+
+                transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+
+        -webkit-transform: translateX(0);
+
+                transform: translateX(0);
+    }
+}
+@-webkit-keyframes popup2_theme_normal_left {
+    0% {
+        visibility: visible;
+
+        margin: 0;
+
+        opacity: 1;
+
+        -webkit-transform: translateX(0);
+
+                transform: translateX(0);
+    }
+    99% {
+        margin: 0;
+
+        -webkit-transform: translateX(-10px);
+
+                transform: translateX(-10px);
+    }
+    100% {
+        visibility: hidden;
+
+        margin: -9999px 0 0 -9999px;
+
+        opacity: 0;
+    }
+}
+@keyframes popup2_theme_normal_left {
+    0% {
+        visibility: visible;
+
+        margin: 0;
+
+        opacity: 1;
+
+        -webkit-transform: translateX(0);
+
+                transform: translateX(0);
+    }
+    99% {
+        margin: 0;
+
+        -webkit-transform: translateX(-10px);
+
+                transform: translateX(-10px);
+    }
+    100% {
+        visibility: hidden;
+
+        margin: -9999px 0 0 -9999px;
+
+        opacity: 0;
+    }
+}
+@-webkit-keyframes popup2_theme_normal_left_visible {
+    0% {
+        opacity: 0;
+
+        -webkit-transform: translateX(-10px);
+
+                transform: translateX(-10px);
+    }
+    100% {
+        opacity: 1;
+
+        -webkit-transform: translateX(0);
+
+                transform: translateX(0);
+    }
+}
+@keyframes popup2_theme_normal_left_visible {
+    0% {
+        opacity: 0;
+
+        -webkit-transform: translateX(-10px);
+
+                transform: translateX(-10px);
+    }
+    100% {
+        opacity: 1;
+
+        -webkit-transform: translateX(0);
+
+                transform: translateX(0);
+    }
+}
+.select2_width_max {
+    width: 100%;
+}
+.tabs-menu {
+    margin: 0;
+    padding: 0;
+}
+.tabs-menu_view_default .tabs-menu__tab {
+    position: relative;
+
+    outline: none;
+}
+.tabs-menu_view_default .tabs-menu__tab:before {
+    -webkit-transition: background-color .15s ease-out;
+    transition: background-color .15s ease-out;
+}
+.tabs-menu_view_default.tabs-menu_layout_horiz .tabs-menu__tab_active_yes:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    height: 2px;
+
+    content: '';
+
+    background-color: var(--color-typo-primary);
+}
+.pointerfocus .tabs-menu_view_default .tabs-menu__tab:focus {
+    outline: 2px solid var(--color-control-bg-border-default-hover);
+}
+.tabs-menu_size_m {
+    font-size: 15px;
+    /*line-height: 36px;*/
+}
+.tabs-menu_size_m.tabs-menu_layout_horiz .tabs-menu__tab {
+    padding: var(--tab-size-m-tab-spaceVert);
+}
+.tabs-menu_layout_horiz .tabs-menu__tab {
+    display: inline-block;
+
+    margin-left: 16px;
+}
+.tabs-menu_layout_horiz .tabs-menu__tab_first_yes {
+    margin-left: 0;
+}
+.tooltip.popup2_view_default:before {
+    content: none;
+    box-shadow: none; /* Без этого - проблемы с gemini, ложно расширяющими область скриншота. */
+}
+/** FROM common.blocks/tooltip/_view/tooltip_view_default.css */
+/**
+ * 1. Усиливаем селектор, чтобы в react стили перебивали скругления popup2
+ * TODO: https://st.yandex-team.ru/ISL-4002.
+ */
+.tooltip_view_default.popup2_view_default {
+    /* color: var(--color-bg-base); */
+    border: 0;
+    box-shadow: none;
+}
+.tooltip_view_default.popup2_view_default .tooltip__backdrop:before {
+    /* background: var(--color-text); */
+    box-shadow: 0 1ex 2ex -.5ex rgba(0,0,0,.5);
+}
+/*.tooltip_view_default.popup2_view_default .popup2__tail:before,
+.tooltip_view_default.popup2_view_default .popup2__tail:after {
+    background-color: var(--color-transparent);
+    background-image: linear-gradient(to top right, var(--color-text) 50%, var(--color-transparent) 50%);
+}*/
+.tooltip.tooltip.tooltip_view_default.popup2_view_default { /*1*/
+    background: none;
+}
+.tooltip_view_default.popup2_view_default .popup2__tail:before {
+    border: none;
+}
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default .popup2__tail {
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default.popup2_direction_bottom-left .popup2__tail,
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default.popup2_direction_bottom-center .popup2__tail,
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default.popup2_direction_bottom-right .popup2__tail {
+    -webkit-animation-name: tooltip__tail_bottom;
+            animation-name: tooltip__tail_bottom;
+}
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default.popup2_direction_top-left .popup2__tail,
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default.popup2_direction_top-center .popup2__tail,
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default.popup2_direction_top-right .popup2__tail {
+    -webkit-animation-name: tooltip__tail_top;
+            animation-name: tooltip__tail_top;
+}
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default.popup2_direction_right-top .popup2__tail,
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default.popup2_direction_right-center .popup2__tail,
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default.popup2_direction_right-bottom .popup2__tail {
+    -webkit-animation-name: tooltip__tail_right;
+            animation-name: tooltip__tail_right;
+}
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default.popup2_direction_left-to .popup2__tail,
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default.popup2_direction_left-center .popup2__tail,
+.tooltip_view_default.tooltip_pulsing-tail_yes.popup2_view_default.popup2_direction_left-bottom .pupup2__tail {
+    -webkit-animation-name: tooltip__tail_left;
+            animation-name: tooltip__tail_left;
+}
+@-webkit-keyframes tooltip__tail_bottom {
+    from {
+        -webkit-transform: translateY(2px) rotate(135deg);
+                transform: translateY(2px) rotate(135deg);
+    }
+    50% {
+        -webkit-transform: translateY(0px) rotate(135deg);
+                transform: translateY(0px) rotate(135deg);
+    }
+    to {
+        -webkit-transform: translateY(2px) rotate(135deg);
+                transform: translateY(2px) rotate(135deg);
+    }
+}
+@keyframes tooltip__tail_bottom {
+    from {
+        -webkit-transform: translateY(2px) rotate(135deg);
+                transform: translateY(2px) rotate(135deg);
+    }
+    50% {
+        -webkit-transform: translateY(0px) rotate(135deg);
+                transform: translateY(0px) rotate(135deg);
+    }
+    to {
+        -webkit-transform: translateY(2px) rotate(135deg);
+                transform: translateY(2px) rotate(135deg);
+    }
+}
+@-webkit-keyframes tooltip__tail_top {
+    from {
+        -webkit-transform: translateY(-2px) rotate(-45deg);
+                transform: translateY(-2px) rotate(-45deg);
+    }
+    50% {
+        -webkit-transform: translateY(-0px) rotate(-45deg);
+                transform: translateY(-0px) rotate(-45deg);
+    }
+    to {
+        -webkit-transform: translateY(-2px) rotate(-45deg);
+                transform: translateY(-2px) rotate(-45deg);
+    }
+}
+@keyframes tooltip__tail_top {
+    from {
+        -webkit-transform: translateY(-2px) rotate(-45deg);
+                transform: translateY(-2px) rotate(-45deg);
+    }
+    50% {
+        -webkit-transform: translateY(-0px) rotate(-45deg);
+                transform: translateY(-0px) rotate(-45deg);
+    }
+    to {
+        -webkit-transform: translateY(-2px) rotate(-45deg);
+                transform: translateY(-2px) rotate(-45deg);
+    }
+}
+@-webkit-keyframes tooltip__tail_left {
+    from {
+        -webkit-transform: translateX(-2px) rotate(-135deg);
+                transform: translateX(-2px) rotate(-135deg);
+    }
+    50% {
+        -webkit-transform: translateX(-0px) rotate(-135deg);
+                transform: translateX(-0px) rotate(-135deg);
+    }
+    to {
+        -webkit-transform: translateX(-2px) rotate(-135deg);
+                transform: translateX(-2px) rotate(-135deg);
+    }
+}
+@keyframes tooltip__tail_left {
+    from {
+        -webkit-transform: translateX(-2px) rotate(-135deg);
+                transform: translateX(-2px) rotate(-135deg);
+    }
+    50% {
+        -webkit-transform: translateX(-0px) rotate(-135deg);
+                transform: translateX(-0px) rotate(-135deg);
+    }
+    to {
+        -webkit-transform: translateX(-2px) rotate(-135deg);
+                transform: translateX(-2px) rotate(-135deg);
+    }
+}
+@-webkit-keyframes tooltip__tail_right {
+    from {
+        -webkit-transform: translateX(2px) rotate(45deg);
+                transform: translateX(2px) rotate(45deg);
+    }
+    50% {
+        -webkit-transform: translateX(0px) rotate(45deg);
+                transform: translateX(0px) rotate(45deg);
+    }
+    to {
+        -webkit-transform: translateX(2px) rotate(45deg);
+                transform: translateX(2px) rotate(45deg);
+    }
+}
+@keyframes tooltip__tail_right {
+    from {
+        -webkit-transform: translateX(2px) rotate(45deg);
+                transform: translateX(2px) rotate(45deg);
+    }
+    50% {
+        -webkit-transform: translateX(0px) rotate(45deg);
+                transform: translateX(0px) rotate(45deg);
+    }
+    to {
+        -webkit-transform: translateX(2px) rotate(45deg);
+                transform: translateX(2px) rotate(45deg);
+    }
+}
+/** FROM common.blocks/tooltip/_tone/tooltip_tone_default.css */
+/*.tooltip_view_default.popup2_view_default {
+    color: #fff;
+}
+.tooltip_view_default.popup2_view_default .tooltip__backdrop:before {
+    background: #000;
+}
+.tooltip_view_default.popup2_view_default .popup2__tail:before,
+.tooltip_view_default.popup2_view_default .popup2__tail:after {
+    background-color: transparent;
+    background-image: linear-gradient(to top right, #000 50%, transparent 50%);
+}
+*/
+/** FROM common.blocks/tooltip/_theme/tooltip_theme_error.css */
+.tooltip.popup2_view_default {
+    color: var(--color-control-typo-passive);
+    border: 0;
+}
+.tooltip_view_default.popup2_view_default .tooltip__backdrop {
+    opacity: .9;
+}
+.tooltip_view_default.popup2_view_default .tooltip__backdrop:before {
+    background: var(--color-control-bg-default);
+}
+.tooltip_view_default.popup2_view_default:before {
+    background: transparent;
+}
+.tooltip_view_default .tooltip__backdrop:before {
+    box-shadow: none;
+}
+.tooltip_view_default.popup2_view_default .popup2__tail:after {
+    background-image: -webkit-gradient(linear, left bottom, right top, color-stop(50%, var(--color-control-bg-default)), color-stop(50%, transparent));
+    background-image: -webkit-linear-gradient(bottom left, var(--color-control-bg-default) 50%, transparent 50%);
+    background-image: linear-gradient(to top right, var(--color-control-bg-default) 50%, transparent 50%);
+}
+.tooltip_view_classic {
+    cursor: pointer;
+}
+.tooltip_size_s .tooltip__content {
+    padding: var(--tooltip-size-s-content-spaceAll);
+
+    font-size: var(--tooltip-size-s-fontSize);
+    line-height: var(--tooltip-size-s-lineHeight);
+}
+.tooltip_size_s .popup2__tail {
+    width: 12px;
+    height: 12px;
+}
+.tooltip_size_l .tooltip__content {
+    padding: var(--tooltip-size-l-content-spaceAll);
+
+    font-size: var(--tooltip-size-l-fontSize);
+    line-height: var(--tooltip-size-l-lineHeight);
+}
+.tooltip_size_l .popup2__tail {
+    width: 18px;
+    height: 18px;
+}
+.tumbler {
+    display: inline-block;
+
+    -webkit-user-select: none;
+
+       -moz-user-select: none;
+
+        -ms-user-select: none;
+
+            user-select: none;
+
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+    -ms-touch-action: manipulation;
+
+        touch-action: manipulation;
+}
+/* :before — background & border */
+.tumbler .tumbler__box:before,
+.tumbler .tumbler__sticker:before /* стикеры тумблера */ {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    padding: 0;
+
+    content: '';
+
+    border-radius: 3px;
+    background-clip: padding-box;
+}
+/** FROM common.blocks/tumbler/_view/tumbler_view_default.css */
+.tumbler_view_default.tumbler .tumbler__box {
+    -webkit-transition: background 0.1s;
+    transition: background 0.1s;
+}
+.tumbler_view_default.tumbler .tumbler__button {
+    overflow: visible;
+    border: none;
+}
+.tumbler_view_default.tumbler_view_default .tumbler__box,
+.tumbler_view_default.tumbler_view_default .tumbler__box:before,
+.tumbler_view_default.tumbler_view_default .tumbler__button:before,
+.tumbler_view_default.tumbler_view_default .tumbler__sticker,
+.tumbler_view_default.tumbler_view_default .tumbler__sticker:before
+{
+    border-width: 0;
+    border-radius: 100px; /* Because Android 2.3 doesn't supports 50% */
+}
+.tumbler_view_default.tumbler .tumbler__sticker-label {
+    display: none;
+}
+.tumbler_view_default.tumbler_view_default .tumbler__sticker {
+    z-index: 1;
+    opacity: 0;
+    border-radius: 5px;
+}
+.tumbler_view_default.tumbler_view_default .tumbler__box:before,
+.tumbler_view_default.tumbler_view_default .tumbler__box:after {
+    border: none;
+    /* background-color: var(--color-transparent); */
+    box-shadow: none;
+}
+/* pallete */
+.tumbler_view_default .tumbler__box:before,
+.tumbler_view_default .tumbler__box:after {
+    background-color: transparent;
+}
+.tumbler_view_default .tumbler__box {
+    background-color: var(--color-control-bg-default);
+}
+.tumbler_view_default.tumbler_checked_yes .tumbler__box {
+    background-color: var(--color-control-bg-check);
+}
+.tumbler_view_default.tumbler_hovered_yes .tumbler__box {
+    background-color: var(--color-control-bg-default-hover);
+}
+.tumbler_view_default.tumbler_checked_yes.tumbler_hovered_yes  .tumbler__box {
+    background-color: var(--color-control-bg-check-hover);
+}
+.tumbler.tumbler_view_default.tumbler_disabled_yes .tumbler__box {
+    background-color: var(--color-control-bg-default-disable);
+}
+.tumbler.tumbler_view_default.tumbler_disabled_yes .tumbler__button:before{
+    background-color: var(--color-control-bg-faint-disable);
+}
+.tumbler_view_default .tumbler__button:before {
+    background-color: var(--color-control-bg-faint);
+}
+.utilityfocus .tumbler_view_default.tumbler_focused_yes .tumbler__button:before {
+    border: 1px solid var(--color-control-bg-border-prism);
+}
+.tumbler_view_default .tumbler__text {
+    color: var(--color-control-typo-primary);
+}
+.tumbler_view_default.tumbler_disabled_yes .tumbler__text {
+    color: var(--color-control-typo-disable);
+}
+/** FROM common.blocks/tumbler/_theme/tumbler_theme_normal.css */
+.tumbler_view_default {
+    font-family: var(--control-font-family);
+}
+.tumbler_view_default .tumbler__box {
+    border-radius: 3px;
+}
+.tumbler .tumbler__box:before,
+.tumbler .tumbler__sticker:before {
+    border: 1px solid transparent;
+}
+/* tumbler ON */
+.tumbler_view_default .tumbler__sticker_position_left {
+    left: 0;
+
+    width: 0;
+}
+/* tumbler OFF */
+.tumbler_view_default .tumbler__sticker_position_right {
+    right: 0;
+}
+/** FROM common.blocks/tumbler/_theme/tumbler_theme_tiny.css */
+/**
+ * 1. Необходимо увеличить вес селектора, чтобы в react
+ *    стили theme_tiny перебивали стили size.
+ */
+.tumbler.tumbler_view_tiny { /*1*/
+    font-size: 10px;
+    line-height: 10px;
+}
+.tumbler_view_tiny .tumbler__box,
+.tumbler_view_tiny .tumbler__box:before,
+.tumbler_view_tiny .tumbler__box:after,
+.tumbler_view_tiny .tumbler__button {
+    border-width: 0;
+    border-radius: 5px;
+}
+.tumbler_view_tiny .tumbler__label_side_left {
+    padding-right: 3px;
+}
+.tumbler_view_tiny .tumbler__label_side_right {
+    padding-left: 3px;
+}
+.tumbler.tumbler_view_tiny .tumbler__box { /*1*/
+    width: 20px;
+    height: 10px;
+
+    background-color: rgba(0,0,0,.2);
+
+    -webkit-transition: background-color .15s ease-out;
+
+    transition: background-color .15s ease-out;
+}
+.tumbler_view_tiny.tumbler_checked_yes .tumbler__box {
+    background-color: #fc0;
+}
+.tumbler_view_tiny .tumbler__box:before,
+.tumbler_view_tiny .tumbler__box:after {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+.tumbler_view_tiny .tumbler__box:before {
+    z-index: 1;
+
+    -moz-box-sizing: border-box;
+
+         box-sizing: border-box;
+
+    border: 1px solid rgba(0,0,0,.15);
+}
+.tumbler_view_tiny.tumbler_checked_yes .tumbler__box .tumbler__button {
+    left: 10px;
+}
+.tumbler.tumbler_view_tiny .tumbler__button,
+.tumbler.tumbler_view_tiny .tumbler__button:before { /*1*/
+    width: 6px;
+    height: 6px;
+
+    border: none;
+}
+.tumbler.tumbler_view_tiny .tumbler__button:before { /*1*/
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+
+    border: 1px solid #fff;
+
+    -webkit-transition: none;
+
+    transition: none;
+}
+.utilityfocus .tumbler_view_tiny .tumbler__button.tumbler__button_focused_yes:before {
+    -moz-box-sizing: content-box;
+         box-sizing: content-box;
+    margin: -2px;
+
+    border: 1px solid var(--color-control-bg-border-prism);
+    border: 2px solid var(--color-control-bg-border-prism);
+    border-radius: 50%;
+}
+.tumbler_view_tiny .tumbler__button {
+    overflow: visible;
+
+    margin: 2px;
+}
+.tumbler_view_tiny .tumbler__sticker-label {
+    display: none;
+}
+.tumbler_view_tiny .tumbler__sticker {
+    z-index: 1;
+}
+.tumbler_view_tiny .tumbler__sticker {
+    opacity: 0;
+    border-radius: 5px;
+}
+.tumbler.tumbler_view_tiny .tumbler__sticker_position_right,
+.tumbler.tumbler_view_tiny.tumbler_checked_yes .tumbler__sticker_position_left { /*1*/
+    width: 20px;
+    height: 10px;
+}
+.tumbler_view_tiny.tumbler_disabled_yes .tumbler__button {
+    background-color: rgba(0,0,0,.10);
+}
+.tumbler_view_tiny.tumbler_disabled_yes .tumbler__button:before {
+    border: 1px solid rgba(0,0,0,.08);
+}
+.tumbler_view_tiny.tumbler_disabled_yes .tumbler__box:before {
+    border: none;
+}
+.tumbler_view_tiny.tumbler_disabled_yes .tumbler__box {
+    background-color: rgba(0,0,0,.26);
+}
+/** FROM desktop.blocks/tumbler/_theme/tumbler_theme_normal.css */
+.tumbler_view_default .tumbler__sticker:before {
+    -webkit-transition: .1s ease-out;
+    transition: .1s ease-out;
+    -webkit-transition-property: border-color, background-color;
+    transition-property: border-color, background-color;
+}
+.tumbler_view_default .tumbler__button:before {
+    -webkit-transition: .1s ease-out;
+    transition: .1s ease-out;
+    -webkit-transition-property: border-color, border-width, background-color;
+    transition-property: border-color, border-width, background-color;
+}
+.tumbler_view_default .tumbler__button_hovered_yes:before {
+    border-color: rgba(0,0,0,.3);
+}
+.tumbler_view_default.tumbler_hovered_yes .tumbler__sticker_position_left:before {
+    border-color: rgba(129,103,0,.6);
+}
+.tumbler_view_default.tumbler_hovered_yes .tumbler__sticker_position_right:before {
+    border-color: rgba(0,0,0,.335);
+}
+.tumbler_size_s {
+    font-size: var(--tumbler-size-s-fontSize);
+}
+/* _view_default */
+.tumbler_view_default.tumbler_size_s {
+    line-height: var(--tumbler-size-s-lineHeight);
+}
+.tumbler_view_default.tumbler_size_s .tumbler__box,
+.tumbler_view_default.tumbler_size_s .tumbler__sticker-label,
+.tumbler_view_default.tumbler_size_s .tumbler__sticker_position_right,
+.tumbler_view_default.tumbler_size_s.tumbler_checked_yes .tumbler__sticker_position_left {
+    width: var(--tumbler-size-s-width);
+    height: var(--tumbler-size-s-height);
+}
+.tumbler_view_default.tumbler_size_s .tumbler__button {
+    top: var(--tumbler-size-s-button-positionTop);
+    left: var(--tumbler-size-s-button-positionLeft);
+    width: var(--tumbler-size-s-button-width);
+    height: var(--tumbler-size-s-button-height);
+}
+.tumbler_view_default.tumbler_size_s.tumbler_checked_yes .tumbler__button {
+    left: var(--tumbler-size-s-button-check-positionLeft);
+}
+/* _view_classic && _view_default */
+.tumbler_size_s .tumbler__text_side_left {
+    padding-right: var(--tumbler-size-s-text-side-left-spaceRight);
+}
+.tumbler_size_s .tumbler__text_side_right {
+    padding-left: var(--tumbler-size-s-text-side-left-spaceLeft);
+}
+.tumbler_size_s .tumbler__text_side_left:empty {
+    padding-right: 0;
+}
+.tumbler_size_s .tumbler__text_side_right:empty {
+    padding-left: 0;
+}
+.tumbler_size_m {
+    font-size: var(--tumbler-size-m-fontSize);
+}
+/* _view_default */
+.tumbler_view_default.tumbler_size_m {
+    line-height: var(--tumbler-size-m-lineHeight);
+}
+.tumbler_view_default.tumbler_size_m .tumbler__box,
+.tumbler_view_default.tumbler_size_m .tumbler__sticker-label,
+.tumbler_view_default.tumbler_size_m .tumbler__sticker_position_right,
+.tumbler_view_default.tumbler_size_m.tumbler_checked_yes .tumbler__sticker_position_left {
+    width: var(--tumbler-size-m-width);
+    height: var(--tumbler-size-m-height);
+}
+.tumbler_view_default.tumbler_size_m .tumbler__button {
+    top: var(--tumbler-size-m-button-positionTop);
+    left: var(--tumbler-size-m-button-positionLeft);
+    width: var(--tumbler-size-m-button-width);
+    height: var(--tumbler-size-m-button-height);
+}
+.tumbler_view_default.tumbler_size_m.tumbler_checked_yes .tumbler__button {
+    left: var(--tumbler-size-m-button-check-positionLeft);
+}
+/* _view_classic && _view_default */
+.tumbler_size_m .tumbler__text_side_left {
+    padding-right: var(--tumbler-size-m-text-side-left-spaceRight);
+}
+.tumbler_size_m .tumbler__text_side_right {
+    padding-left: var(--tumbler-size-m-text-side-left-spaceLeft);
+}
+.tumbler_size_m .tumbler__text_side_left:empty {
+    padding-right: 0;
+}
+.tumbler_size_m .tumbler__text_side_right:empty {
+    padding-left: 0;
+}
+.tumbler_disabled_yes .tumbler__label,
+.tumbler_disabled_yes .tumbler__box {
+    cursor: default;
+}
+/**
+ * 1. Значения padding и margin каждый браузер выставляет по-своему – сбрасываем в ноль.
+ * 2. Не должно быть возможности выделить контент кнопки, в т.ч. кнопки-ссылки.
+ * 3. У содержимого кнопок-ссылок не должно быть подчеркивания.
+ * 4. Кнопка не предполагает многострочного содержимого.
+ * 5. Чтобы FF под MacOS не делал blur после программного выставления фокуса по mousedown.
+ *    Подробности: http://jsfiddle.net/mishaberezin/892yppts/10/.
+ * 6. Для кнопок-ссылок.
+ * 7. Убираем нативную подсветку на iOS и Android.
+ * 8. В IE по дефолту hidden, в остальных браузерах visible, требуется нормализация.
+ *    В пользу visible, т.к. мы используем тень для отображения фокуса.
+ * 9. Такой сброс стилей нужен для всех тем.
+ * 10. Сбрасываем браузерные стили для кнопок, в особенности для link.
+ */
+.button2 {
+    display: inline-block; /*6*/
+    overflow: visible; /*8*/
+
+    -moz-box-sizing: border-box;
+
+         box-sizing: border-box;
+    margin: 0; /*1*/
+    padding: 0; /*1*/
+    border-width: 0;
+
+    /*TODO: прокинуть переменную*/
+    font-family: var(--control-font-family);
+    -moz-user-focus: ignore; /*5*/
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; /*2*/
+    text-align: center; /*10*/
+    white-space: nowrap; /*4*/
+    text-decoration: none; /*3*/
+
+    background: transparent; /*9*/
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /*7*/
+
+    -ms-touch-action: manipulation;
+
+        touch-action: manipulation;
+}
+/**
+ * Кнопка не должна реагировать на события мыши, если имеет атрибут disabled.
+ * Нативная поддержка атрибута disabled для ссылок есть только в IE.
+ * В других браузерах схожее поведение дает свойство pointer-events:none.
+ *
+ * NB:
+ * - Фикс не избавляет от необходимости удалять ссылку из taborder.
+ */
+.button2_disabled_yes {
+    pointer-events: none;
+}
+/**
+ * В FF 4+ у содержимого кнопки есть внутренняя обводка, которая используется для
+ * индикации фокуса на кнопках с измененными css-свойствами border или background.
+ * Обводка влияет на размеры, для нормализации с другими браузерами ее нужно убрать.
+ * Подробности: http://stackoverflow.com/questions/8859908.
+ */
+.button2::-moz-focus-inner {
+    padding: 0;
+
+    border: 0;
+}
+.button2:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    content: '';
+
+    border-radius: var(--button-borderRadius);
+}
+/** COLORS AND REST BELOW */
+/* PRESSED */
+.button2 {
+    -webkit-transition: color 0.15s linear, -webkit-transform 0.1s ease-out;
+    transition: color 0.15s linear, -webkit-transform 0.1s ease-out;
+    transition: transform 0.1s ease-out, color 0.15s linear;
+    transition: transform 0.1s ease-out, color 0.15s linear, -webkit-transform 0.1s ease-out;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+.button2_pressed_yes {
+    -webkit-transition: none;
+    transition: none;
+    -webkit-transform: scale(0.96);
+            transform: scale(0.96);
+}
+.button2:before {
+    -webkit-transition: background-color 0.15s linear, opacity 0.15s linear;
+    transition: background-color 0.15s linear, opacity 0.15s linear;
+}
+/* /PRESSED */
+/* colors */
+.utilityfocus .button2_focused_yes:before {
+    border: 2px solid var(--color-control-bg-border-prism);
+}
+.utilityfocus .button2_type_check.button2_checked_yes.button2_focused_yes:before {
+    border-color: var(--color-control-bg-border-prism);
+}
+.button2_view_pseudo {
+    color: var(--color-control-typo-primary);
+}
+.button2_view_pseudo:before {
+    border: 1px solid var(--color-control-bg-border-pseudo);
+}
+.button2_view_pseudo.button2_hovered_yes:before {
+    border: 1px solid var(--color-control-bg-border-pseudo-hover);
+    background-color: var(--color-control-bg-pseudo-hover);
+}
+.button2_view_link {
+    color: var(--color-control-typo-link);
+}
+.button2_view_link:before {
+    border: 1px solid var(--color-control-bg-border-link-default);
+}
+.button2_view_link.button2_hovered_yes:before {
+    background-color: var(--color-control-bg-link-bg-default);
+}
+/*
+ * Если не усилить вес селектора для _progress и _progress + _disabled,
+ * при переключении состояния срабатывает transition, и кнопка заметно "моргает".
+ */
+.button2.button2_view_action.button2_progress_yes {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+.button2.button2_view_clear .button2__text,
+.button2.button2_view_clear .button2__icon {
+    opacity: .65;
+}
+.button2.button2_view_clear.button2_hovered_yes:not(.button2_disabled_yes) .button2__text,
+.button2.button2_view_clear.button2_hovered_yes:not(.button2_disabled_yes) .button2__icon {
+    opacity: 1;
+}
+.button2.button2_view_clear.button2_hovered_yes:before {
+    opacity: .03;
+}
+.button2.button2_checked_yes.button2_hovered_yes:before {
+    opacity: 1;
+}
+.button2.button2_view_pseudo.button2_checked_yes:before {
+    opacity: .9;
+}
+.button2.button2_disabled_yes {
+    opacity: 1;
+}
+/** Prorably these should be splitted to views */
+.button2_view_default {
+    color: var(--color-control-typo-primary);
+}
+.button2_view_default:before {
+    background-color: var(--color-control-bg-default);
+}
+.button2_view_default.button2_hovered_yes:before {
+    background-color: var(--color-control-bg-default-hover);
+}
+.utilityfocus .button2_focused_yes:before {
+    border-color: var(--color-control-bg-border-prism);
+}
+.utilityfocus .button2_view_action.button2_focused_yes:before {
+    border-color: var(--color-control-bg-border-prism);
+}
+.utilityfocus .button2_view_link.button2_focused_yes:before {
+    border-color: var(--color-control-bg-border-prism);
+}
+.button2_view_pseudo {
+    color: var(--color-control-typo-primary);
+}
+.button2_view_pseudo:before {
+    border-color: var(--color-control-bg-border-pseudo);
+    background-color: var(--color-control-bg-pseudo);
+}
+.button2_view_pseudo.button2_hovered_yes:before {
+    border-color: var(--color-control-bg-border-pseudo-hover);
+    background-color: var(--color-control-bg-pseudo-hover);
+}
+.button2_view_link {
+    color: var(--color-control-typo-link);
+}
+.button2_view_link:before {
+    border-color: var(--color-control-bg-border-link-default);
+    background-color: var(--color-control-bg-faint);
+}
+.button2_view_link.button2_hovered_yes:before {
+    background-color: var(--color-control-bg-link-default-hover);
+}
+.button2_view_action {
+    color: var(--color-control-typo-passive);
+}
+.button2_view_action:before {
+    background-color: var(--color-control-bg-action);
+}
+.button2_view_action.button2_hovered_yes {
+    color: var(--color-control-typo-passive);
+}
+.button2_view_action.button2_hovered_yes:before {
+    background-color: var(--color-control-bg-action-hover);
+}
+.button2.button2_view_action.button2_progress_yes:before {
+    background-color: var(color-control-bg-action-press);
+    background-image: -webkit-repeating-linear-gradient(135deg, var(--color-control-bg-progress), var(--color-control-bg-progress)4px, var(--color-control-bg-progress-process) 4px, var(--color-control-bg-progress-process) 8px);
+    background-image: repeating-linear-gradient(-45deg, var(--color-control-bg-progress), var(--color-control-bg-progress)4px, var(--color-control-bg-progress-process) 4px, var(--color-control-bg-progress-process) 8px);
+}
+.button2.button2_view_action.button2_progress_yes {
+    color: var(--color-control-typo-primary);
+}
+.button2.button2_view_clear {
+    color: var(--color-control-typo-primary);
+}
+.button2.button2_view_clear.button2_hovered_yes:before {
+    background-color: var(--color-control-bg-hover);
+}
+.button2.button2_disabled_yes:before {
+    border-color: transparent;
+    background-color: var(--color-control-bg-default-disable);
+}
+.button2.button2_view_clear.button2_checked_yes {
+    color: var(--color-control-typo-faint);
+}
+.button2.button2_checked_yes:before {
+    background-color: var(--color-control-bg-check);
+}
+.button2_checked_yes.button2_hovered_yes {
+    color: var(--color-control-typo-faint);
+}
+.button2.button2_checked_yes.button2_hovered_yes:before {
+    background-color: var(--color-control-bg-check-hover);
+}
+.button2_view_pseudo.button2_checked_yes:before {
+    border-color: transparent;
+}
+.button2_view_clear.button2_checked_yes {
+    background-color: transparent;
+}
+.button2.button2_checked_yes {
+    color: var(--color-control-typo-faint);
+}
+.button2.button2_disabled_yes {
+    color: var(--color-control-typo-disable);
+}
+.button2.button2_view_clear.button2_checked_yes.button2_disabled_yes {
+    color: var(--color-control-typo-disable);
+}
+.button2 {
+    cursor: pointer;
+}
+.button2_disabled_yes {
+    cursor: default
+}
+.button2_size_m {
+    height: var(--button-size-m-height);
+
+    font-size: var(--button-size-m-font);
+    line-height: var(--button-size-m-lineHeight);
+}
+.button2_size_m .button2__text {
+    margin: var(--button-size-m-text-indentAll);
+}
+.button2_size_m .button2__icon {
+    width: var(--button-size-m-icon-width);
+    height: 100%;
+}
+.button2_size_m .button2__icon.icon_type_arrow {
+    width: var(--button-size-m-icon-width);
+}
+.button2_size_m .button2__icon_side_left ~ .button2__text {
+    margin-left: var(--button-size-m-icon-indentLeft);
+}
+.button2_size_m .button2__icon_side_right ~ .button2__text {
+    margin-right: var(--button-size-m-icon-indentRight);
+}
+.button2_width_max {
+    width: 100%;
+}
+/**
+ * У кнопок-ссылок выставляем блочное представление для того,
+ * чтобы избавиться от лишнего отступа снизу из-за vertical-align: baseline
+ */
+.button2_width_max.button2_type_link {
+    display: block;
+}
+.button2_width_max .button2__text {
+    display: block;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+.button2_size_l {
+    height: var(--button-size-l-height);
+
+    font-size: var(--button-size-l-font);
+    line-height: var(--button-size-l-lineHeight);
+}
+.button2_size_l .button2__text {
+    margin: var(--button-size-l-text-indentAll);
+}
+.button2_size_l .button2__icon {
+    width: var(--button-size-l-icon-width);
+    height: 100%;
+}
+.button2_size_l .button2__icon.icon_type_arrow {
+    width: var(--button-size-l-icon-width);
+}
+.button2_size_l .button2__icon_side_left ~ .button2__text {
+    margin-left: var(--button-size-l-icon-indentLeft);
+}
+.button2_size_l .button2__icon_side_right ~ .button2__text {
+    margin-right: var(--button-size-l-icon-indentRight);
+}
+/**
+ * 1. Нужно, чтобы __label всегда оставался на одной строке с __box.
+ */
+.checkbox {
+    border-spacing: 0;
+
+    font-family: var(--control-font-family);
+    white-space: nowrap; /*1*/
+
+    -webkit-tap-highlight-color: var(--color-control-bg-focus);
+
+    -ms-touch-action: manipulation;
+
+        touch-action: manipulation;
+}
+/* Старый VIEW_DEFAULT */
+/**
+ * 9. Если перед checkbox_size_m поставить вплотную текст определенной длины,
+ * inline-svg внутри сдвигается (вероятно, из-за нечетных величин длины/ширины).
+ * Точно так же такие сдвиги могут происходить из-за margin у элементов сверху (Chrome).
+ * Поэтому процентный отступ переопределяется на величину в px.
+ * 10. Из-за четных величин viewBox, которые актуальны для размеров s и n, в нечетном m
+ * нужен небольшой отступ для выравнивания.
+ */
+.checkbox_view_default .checkbox__box:before {
+    border-radius: 4px;
+
+    -webkit-transition: background .1s linear;
+
+    transition: background .1s linear;
+}
+.checkbox_view_default .checkbox__tick {
+    -webkit-transition: color .1s, -webkit-transform .2s;
+    transition: color .1s, -webkit-transform .2s;
+    transition: color .1s, transform .2s;
+    transition: color .1s, transform .2s, -webkit-transform .2s;
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+}
+.checkbox_view_default .checkbox__tick .icon {
+    width: 100%;
+    height: 100%;
+}
+.checkbox_view_default.checkbox_checked_yes .checkbox__tick {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+}
+.checkbox_view_default.checkbox_disabled_yes {
+    opacity: .6;
+}
+.checkbox_view_default .checkbox__box {
+    text-align: left;
+}
+.checkbox_size_m .checkbox__box,
+.checkbox_size_m .checkbox__tick,
+.checkbox_size_m .checkbox__tick .icon {
+    width: 17px;
+    height: 17px;
+}
+.checkbox_size_s .checkbox__box,
+.checkbox_size_s .checkbox__tick,
+.checkbox_size_s .checkbox__tick .icon {
+    width: 14px;
+    height: 14px;
+}
+.checkbox_size_n .checkbox__tick svg {
+    width: 12px;
+    height: 10px;
+}
+.checkbox_size_m .checkbox__tick svg {
+    top: 9px; /*9*/
+    left: 9px; /*9*/
+
+    width: 11px;
+    height: 10px;
+
+    padding-right: 1px; /*10*/
+    padding-bottom: 1px; /*10*/
+}
+.checkbox_size_s .checkbox__tick svg {
+    width: 10px;
+    height: 8px;
+}
+/** COLORS **/
+.checkbox_view_default {
+    color: var(--color-control-typo-primary);
+}
+.checkbox_view_default .checkbox__box:before {
+    background-color: var(--color-control-bg-default);
+}
+.utilityfocus .checkbox_focused_yes .checkbox__box:before {
+    box-shadow: 0 0 0 2px var(--color-control-bg-border-prism);
+}
+.utilityfocus .checkbox_checked_yes.checkbox_focused_yes .checkbox__box:before {
+    box-shadow: 0 0 0 2px var(--color-control-bg-border-prism);
+}
+.checkbox_view_default .checkbox__tick {
+    color: transparent;
+}
+.checkbox_view_default.checkbox_checked_yes .checkbox__tick .icon {
+    color: var(--color-control-bg-faint);
+}
+.checkbox_view_default.checkbox_checked_yes .checkbox__box:before {
+    background-color: var(--color-control-bg-check);
+}
+.checkbox_view_default.checkbox_hovered_yes .checkbox__box:before {
+    background-color: var(--color-control-bg-default-hover);
+}
+.checkbox_view_default.checkbox_hovered_yes.checkbox_checked_yes .checkbox__box:before {
+    background-color: var(--color-control-bg-check-hover);
+}
+.checkbox {
+    cursor: pointer;
+}
+.checkbox_disabled_yes {
+    cursor: default;
+}
+.checkbox_size_m {
+    font-size: var(--checkbox-size-m-fontSize);
+}
+.checkbox.checkbox_size_m .checkbox__box {
+    width: var(--checkbox-size-m-width);
+    height: var(--checkbox-size-m-height);
+}
+.checkbox_size_m .checkbox__label {
+    padding-left: var(--checkbox-size-m-indentRight);
+}
+.checkbox_size_s {
+    font-size: var(--checkbox-size-s-fontSize);
+}
+.checkbox.checkbox_size_s .checkbox__box {
+    width: var(--checkbox-size-s-width);
+    height: var(--checkbox-size-s-height);
+}
+.checkbox_size_s .checkbox__label {
+    padding-left: var(--checkbox-size-s-indentRight);
+}
+.menu {
+    display: inline-block;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    -moz-box-sizing: border-box;
+
+         box-sizing: border-box;
+
+    -webkit-user-select: none;
+
+       -moz-user-select: none;
+
+        -ms-user-select: none;
+
+            user-select: none;
+
+    -webkit-tap-highlight-color: var(--color-control-bg-focus);
+}
+.menu__item {
+    white-space: nowrap;
+}
+.menu_type_navigation {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+.menu_type_navigation .menu__group {
+    margin: 0;
+
+    list-style: none;
+}
+/**
+ * Блок не должен реагировать на события мыши, если имеет модификатор disabled.
+ *
+ * - Не избавляет от необходимости удалять из taborder.
+ */
+.menu_disabled_yes,
+.menu__item_disabled_yes {
+    cursor: default;
+    pointer-events: none;
+}
+/**
+ * FF игнорирует padding-bottom у контейнеров с overfolow:auto,
+ * поэтому поля у меню реализуются с помощью псевдо-элементов.
+ * Подробнее: https://bugzilla.mozilla.org/show_bug.cgi?id=748518
+ */
+.menu:before,
+.menu:after {
+    display: block;
+
+    content: '';
+}
+/** FROM common.blocks/menu/_view/menu_view_dxefault.css */
+/* general */
+.menu.menu_view_default .menu__item {
+    position: relative;
+}
+/**
+ * Раньше иконка оформлялась в виде background, теперь, когда это настоящий элемент,
+ * обнуляем левый margin для :first-child
+ */
+.menu.menu.menu_view_default .menu__item .icon_glyph_type-check {
+    top: -1px;
+    visibility: hidden;
+
+    width: 16px;
+    margin-right: 5px;
+    margin-left: 0;
+}
+.menu.menu_view_default .menu__item.menu__item_checked_yes {
+   background: var(--color-control-bg-check);
+   color: var(--color-control-typo-faint);
+}
+.menu.menu_view_default .menu__item.menu__item_checked_yes .icon_glyph_type-check {
+    visibility: visible;
+    color: var(--color-control-typo-faint);
+}
+/* colors */
+.menu_view_default.menu_disabled_yes .menu__item,
+.menu_view_default .menu__item.menu__item_disabled_yes {
+    opacity: 1;
+}
+/** FROM common.blocks/menu/_tone/menu_tone_xdefault.css */
+.menu_view_default,
+.menu_view_default .menu__item {
+    color: var(--color-control-typo-primary);
+    background-color: var(--color-control-bg-default);
+}
+.menu_view_default .menu__item:hover,
+.menu_view_default .menu__item.menu__item_hovered_yes {
+    color: var(--color-control-typo-primary);
+    background-color: var(--color-control-bg-default-hover);
+}
+.menu_view_default.menu_disabled_yes .menu__item,
+.menu_view_default .menu__item.menu__item_disabled_yes {
+    color: var(--color-control-typo-disable);
+}
+.menu_view_default .menu__group {
+    border-top-color: var(--color-control-bg-border-default);
+}
+.menu_view_default .menu__title {
+    color: var(--color-control-typo-secondary);
+}
+/** FROM common.blocks/menu/_theme/menu_theme_xnormal.css */
+.menu_view_default {
+    outline: 0;
+}
+.menu_view_default .menu__group {
+    border-top: 1px solid var(--color-control-bg-border-default);
+}
+.menu_view_default .menu__group:first-child {
+    border-top: none;
+}
+.menu_view_default .menu__title {
+    cursor: default;
+}
+/**
+ * 1. Для ссылок.
+ */
+.menu_view_default .menu__item {
+    display: block;
+
+    cursor: pointer;
+    text-decoration: none; /*1*/
+
+    outline: none;
+    background-repeat: no-repeat;
+}
+.menu_view_default.menu_disabled_yes .menu__item,
+.menu_view_default .menu__item.menu__item_disabled_yes {
+    cursor: default;
+
+    opacity: .3;
+}
+.menu_size_m {
+    font-size: var(--menu-size-m-fontSize);
+    line-height: var(--menu-size-m-lineHeight);
+}
+.menu_size_m .menu__item,
+.menu_size_m .menu__title {
+    padding: var(--menu-size-m-item-spaceVert) var(--menu-size-m-item-spaceHor);
+}
+.menu_size_m .menu__item {
+    background-position: 15px center;
+}
+.menu_size_m:before,
+.menu_size_m:after {
+    height: var(--menu-size-m-spaceVert);
+}
+.menu_size_m .menu__group {
+    padding: var(--menu-size-m-group-spaceVert) var(--menu-size-m-group-spaceHor);
+}
+.menu_size_m .menu__item + .menu__group {
+    margin-top: var(--menu-size-m-item-indentBottom);
+}
+.menu_size_m .menu__group + .menu__item {
+    margin-top: var(--menu-size-m-group-indentBottom);
+}
+.menu_size_m .menu__item_type_option > :first-child,
+.menu_size_m .menu__title ~ .menu__list-item .menu__item > :first-child,
+.menu_size_m .menu__title ~ .menu__item > :first-child {
+    margin-left: var(--menu-size-m-titleSibling-indentLeft);
+}
+.menu_size_m .menu__title ~ .menu__item .menu__icon {
+    margin-left: 0;
+}
+.menu_size_m .menu__icon + .menu__text {
+    margin-left: var(--menu-size-m-item-icon-indentRight);
+}
+.menu_width_max {
+    width: 100%;
+}
+.menu_width_max .menu__item {
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+.menu_size_s {
+    font-size: var(--menu-size-s-fontSize);
+    line-height: var(--menu-size-s-lineHeight);
+}
+.menu_size_s .menu__item,
+.menu_size_s .menu__title {
+    padding: var(--menu-size-s-item-spaceVert) var(--menu-size-s-item-spaceHor);
+}
+.menu_size_s .menu__item {
+    background-position: 13px center;
+}
+.menu_size_s:before,
+.menu_size_s:after {
+    height: var(--menu-size-s-spaceVert);
+}
+.menu_size_s .menu__group {
+    padding: var(--menu-size-s-group-spaceVert) var(--menu-size-s-group-spaceHor);
+}
+.menu_size_s .menu__item + .menu__group {
+    margin-top: var(--menu-size-s-group-indentBottom);
+}
+.menu_size_s .menu__group + .menu__item {
+    margin-top: var(--menu-size-s-group-indentBottom);
+}
+.menu_size_s .menu__item_type_option > :first-child,
+.menu_size_s .menu__title ~ .menu__list-item .menu__item > :first-child,
+.menu_size_s .menu__title ~ .menu__item > :first-child {
+    margin-left: var(--menu-size-s-titleSibling-indentLeft);
+}
+.menu_size_s .menu__title ~ .menu__item .icon {
+    margin-left: 0;
+}
+.menu_size_s .menu__icon + .menu__text {
+    margin-left: var(--menu-size-s-item-icon-indentRight);
+}
+.radiobox {
+    display: inline-block;
+
+    -webkit-user-select: none;
+
+       -moz-user-select: none;
+
+        -ms-user-select: none;
+
+            user-select: none;
+
+    -webkit-tap-highlight-color: var(--color-control-bg-focus);
+}
+.radiobox__radio_disabled_yes {
+    pointer-events: none;
+}
+/** old theme normal */
+.radiobox_view_default {
+    font-family: var(--font-family);
+}
+/**
+ * 1-8. Цвета по умолчанию для браузеров, не понимающих переменные.
+ * TODO: https://st.yandex-team.ru/ISL-4002.
+ */
+.radiobox_view_default .radiobox__text {
+    /* margin-left: 1ex;
+    padding-left: 0; */
+}
+.radiobox_view_default .radiobox__box {
+    border-radius: 100%;
+
+    -webkit-transition: background .1s linear;
+
+    transition: background .1s linear;
+}
+.radiobox_view_default .radiobox__text {
+    display: inline-block;
+}
+.radiobox_view_default .radiobox__box:after {
+    position: absolute;
+
+    content: '';
+
+    border-radius: 100px;
+
+    -webkit-transition: opacity .1s, -webkit-transform .2s;
+
+    transition: opacity .1s, -webkit-transform .2s;
+
+    transition: opacity .1s, transform .2s;
+
+    transition: opacity .1s, transform .2s, -webkit-transform .2s;
+}
+.radiobox_view_default .radiobox__box:after {
+    opacity: 0;
+
+    -webkit-transform: scale(.1);
+
+            transform: scale(.1);
+}
+.radiobox_view_default .radiobox__radio_checked_yes .radiobox__box:after {
+    opacity: 1;
+
+    -webkit-transform: scale(1);
+
+            transform: scale(1);
+}
+.radiobox_view_default .radiobox__radio_disabled_yes .radiobox__box,
+.radiobox_view_default .radiobox__radio_disabled_yes .radiobox__text {
+    opacity: .6;
+}
+/** old tone default */
+@media all and (min-width:0) {
+
+    .radiobox_view_default .radiobox__box:after {
+        background: var(--color-control-bg-faint);
+    }
+
+    .radiobox_view_default .radiobox__box {
+        background-color: var(--color-control-bg-default);
+    }
+
+    .radiobox_view_default .radiobox__radio_checked_yes .radiobox__box {
+        background-color: var(--color-control-bg-check);
+    }
+
+    .radiobox_view_default .radiobox__radio_hovered_yes .radiobox__box {
+        background-color: var(--color-control-bg-default-hover);
+    }
+
+    .radiobox_view_default .radiobox__radio_hovered_yes.radiobox__radio_checked_yes .radiobox__box {
+        background-color: var(--color-control-bg-check-hover);
+    }
+
+    .utilityfocus .radiobox_view_default .radiobox__radio_focused_yes .radiobox__box {
+        box-shadow: 0 0 0 2px var(--color-control-bg-border-prism);
+    }
+
+    .utilityfocus .radiobox_view_default .radiobox__radio_checked_yes.radiobox__radio_focused_yes .radiobox__box {
+        box-shadow: 0 0 0 2px var(--color-control-bg-border-prism);
+    }
+
+    .radiobox_view_default .radiobox__label,
+    /* Добавил так как не нашел подвязки к Лэйблу */
+    .radiobox_view_default .radiobox__text {
+        color: var(--color-control-typo-primary);
+    }
+}
+/**
+ * По умолчанию input имеет cursor: auto, поэтому для него тоже задаем pointer.
+ */
+.radiobox__radio,
+.radiobox__control {
+    cursor: pointer;
+}
+.radiobox__radio_disabled_yes,
+.radiobox__radio_disabled_yes .radiobox__control {
+    cursor: default;
+}
+.radiobox__control {
+    position: absolute;
+
+    opacity: 0;
+}
+.radio-button__radio {
+    position: relative;
+    z-index: 2;
+
+    display: inline-block;
+
+    margin: 0 -1px 0 0;
+
+    -webkit-user-select: none;
+
+       -moz-user-select: none;
+
+        -ms-user-select: none;
+
+            user-select: none;
+    text-align: center;
+
+    outline: 0;
+
+    -ms-touch-action: manipulation;
+
+        touch-action: manipulation;
+}
+.radio-button__radio:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    content: '';
+}
+/**
+ * 1. В состоянии focused рамка на псевдо-элементе before шириной 2px
+ *    и накладывается на фон. Поэтому делаем z-index у фона заведомо ниже.
+ */
+.radio-button__radio:after {
+    position: absolute;
+    z-index: -2; /* 1 */
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+
+    content: '';
+}
+.radio-button__radio_side_left,
+.radio-button__radio_side_left:before {
+    border-top-left-radius: var(--radioButton-borderRadius);
+    border-bottom-left-radius: var(--radioButton-borderRadius);
+}
+.radio-button__radio_side_right {
+    margin-right: 0;
+}
+.radio-button__radio_side_right,
+.radio-button__radio_side_right:before {
+    border-top-right-radius: var(--radioButton-borderRadius);
+    border-bottom-right-radius: var(--radioButton-borderRadius);
+}
+.radio-button__radio_side_left:after {
+    border-top-left-radius: var(--radioButton-before-borderRadius);
+    border-bottom-left-radius: var(--radioButton-before-borderRadius);
+}
+.radio-button__radio_side_right:after {
+    right: 1px;
+
+    border-top-right-radius: var(--radioButton-before-borderRadius);
+    border-bottom-right-radius: var(--radioButton-before-borderRadius);
+}
+.radio-button__radio_checked_yes:before {
+    right: 0;
+}
+.radio-button__radio_checked_yes + .radio-button__radio:before {
+    left: 1px;
+}
+.radio-button__radio_disabled_yes {
+    pointer-events: none;
+}
+.radio-button__radio {
+    cursor: pointer;
+}
+.radio-button__radio_disabled_yes {
+    cursor: default;
+}
+.radiobox_size_m {
+    font-size: var(--radiobox-size-m-fontSize);
+    line-height: var(--radiobox-size-m-lineHeight);
+}
+.radiobox_size_m .radiobox__text {
+    padding-left: var(--radiobox-size-m-indentRight);
+}
+.radiobox_size_m .radiobox__box {
+    top: var(--radiobox-size-m-positionTop);
+
+    width: var(--radiobox-size-m-size);
+    height: var(--radiobox-size-m-size);
+}
+.radiobox_size_m .radiobox__box:after {
+    top: -webkit-calc(50% - (var(--radiobox-size-m-after-size)/2));
+    top: calc(50% - (var(--radiobox-size-m-after-size)/2));
+    left: -webkit-calc(50% - (var(--radiobox-size-m-after-size)/2));
+    left: calc(50% - (var(--radiobox-size-m-after-size)/2));
+
+    width: var(--radiobox-size-m-after-size);
+    height: var(--radiobox-size-m-after-size);
+}
+.radiobox_size_s {
+    font-size: var(--radiobox-size-s-fontSize);
+    line-height: var(--radiobox-size-s-lineHeight);
+}
+.radiobox_size_s .radiobox__text {
+    padding-left: var(--radiobox-size-s-indentRight);
+}
+@media all and (min-width:0) {
+    .radiobox_size_s .radiobox__box {
+        top: var(--radiobox-size-s-positionTop);
+
+        width: var(--radiobox-size-s-size);
+        height: var(--radiobox-size-s-size);
+    }
+
+    .radiobox_size_s .radiobox__box:after {
+        top: -webkit-calc(50% - (var(--radiobox-size-s-after-size)/2));
+        top: calc(50% - (var(--radiobox-size-s-after-size)/2));
+        left: -webkit-calc(50% - (var(--radiobox-size-s-after-size)/2));
+        left: calc(50% - (var(--radiobox-size-s-after-size)/2));
+
+        width: var(--radiobox-size-s-after-size);
+        height: var(--radiobox-size-s-after-size);
+    }
+}
+.select2__menu.menu {
+    display: block;
+}
+/** FROM common.blocks/textinput/_view/textinput.css */
+/* Override radius in textinput_has-pin_yes */
+.textinput .textinput__box {
+    border-width: 2px;
+    border-radius: 4px;
+}
+/* The size of the clear icon should be 16x16 by default in most sizes */
+.textinput.textinput_size_s .textinput__clear svg,
+.textinput.textinput_size_xs .textinput__clear svg {
+    width: 12px;
+    height: 12px;
+}
+.textinput.textinput_size_m .textinput__clear svg {
+    width: 14px;
+    height: 14px;
+}
+.textinput .textinput__clear svg {
+    width: 16px;
+    height: 16px;
+}
+.textinput.textinput_size_m .textinput__control {
+    font-size: 13px;
+}
+.textinput_view_default .textinput__clear {
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+}
+.textinput_view_default .textinput__box {
+    -webkit-transition: background 0.15s linear;
+    transition: background 0.15s linear;
+}
+.textinput.textinput_view_default.textinput_focused_yes .textinput__box {
+    border-width: 2px;
+}
+/** FROM common.blocks/textinput/_tone/textinput_tone_default.css */
+.textinput.textinput_view_default .textinput__control {
+    color: var(--color-control-typo-primary);
+}
+.textinput.textinput_view_default .textinput__icon {
+    color: var(--color-control-typo-ghost);
+}
+.textinput.textinput_view_default .textinput__clear.textinput__clear_hovered_yes {
+    color: var(--color-control-typo-primary);
+}
+.textinput.textinput_view_default .textinput__box {
+    border-color: var(--color-control-bg-border-blank);
+    background-color: var(--color-control-bg-blank);
+}
+.textinput.textinput_view_default.textinput_hovered_yes .textinput__box {
+    border-color: var(--color-control-bg-border-blank-hover);
+    background-color: var(--color-control-bg-blank-hover);
+}
+.textinput.textinput_view_default.textinput_focused_yes .textinput__box{
+    border-color: var(--color-control-bg-border-focus);
+}
+.textinput.textinput_view_default .textinput__control::-webkit-input-placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textinput.textinput_view_default .textinput__control::-moz-placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textinput.textinput_view_default .textinput__control:-ms-input-placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textinput.textinput_view_default .textinput__control::placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textinput.textinput_view_default .textinput__control::-moz-placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textinput.textinput_view_default .textinput__control:-ms-input-placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textinput.textinput_disabled_yes.textinput_view_default .textinput__control {
+    color: var(--color-control-typo-disable);
+}
+.textinput.textinput.textinput_view_default.textinput_disabled_yes .textinput__box {
+    border-color: transparent;
+    background-color: var(--color-control-bg-blank-disable);
+}
+.textinput.textinput_view_default.textinput_disabled_yes .textinput__control::-webkit-input-placeholder {
+    color: var(--color-control-typo-disable);
+}
+.textinput.textinput_view_default.textinput_disabled_yes .textinput__control::-moz-placeholder {
+    color: var(--color-control-typo-disable);
+}
+.textinput.textinput_view_default.textinput_disabled_yes .textinput__control:-ms-input-placeholder {
+    color: var(--color-control-typo-disable);
+}
+.textinput.textinput_view_default.textinput_disabled_yes .textinput__control::placeholder {
+    color: var(--color-control-typo-disable);
+}
+.textinput.textinput_view_default.textinput_disabled_yes .textinput__control::-moz-placeholder {
+    color: var(--color-control-typo-disable);
+}
+/** FROM common.blocks/textinput/_theme/textinput_theme_normal.css */
+.textinput_view_default {
+    position: relative;
+
+    display: inline-block;
+
+    -moz-box-sizing: border-box;
+
+         box-sizing: border-box;
+    width: 100%;
+
+    vertical-align: top;
+}
+.textinput_view_default .textinput__control {
+    color: var(--color-control-typo-primary);
+}
+.button2.button2.button2_pin_brick-round:before {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+/* border-width нужен для меняющейся толщины обводки при фокусе */
+.button2_view_classic.button2_theme_pseudo:before {
+    -webkit-transition: .1s ease-out;
+    transition: .1s ease-out;
+    -webkit-transition-property: border-color, border-width, background-color;
+    transition-property: border-color, border-width, background-color;
+}
+.button2_view_classic.button2_theme_pseudo.button2_hovered_yes:before {
+    border-color: rgba(0,0,0,.3);
+}
+.button2_view_classic.button2_theme_pseudo.button2_checked_yes.button2_hovered_yes:before {
+    border-color: rgba(118,94,0,.65);
+}
+.button2.button2.button2_pin_circle-circle:before {
+    border-radius: 100px;
+}
+.textinput_size_m {
+    height: var(--textinput-size-m-height);
+}
+.textinput_size_m .textinput__control {
+    height: var(--textinput-size-m-control-height);
+
+    font-size: var(--textinput-size-m-fontSize);
+
+    border-width: var(--textinput-size-m-control-spaceAll);
+}
+.textinput_size_m .textinput__icon_side_left ~ .textinput__control {
+    border-left-width: var(--textinput-size-m-has-icon-spaceLeft);
+}
+.textinput_size_m .textinput__icon_side_right ~ .textinput__control {
+    border-right-width: var(--textinput-size-m-has-icon-spaceRight);
+}
+.textinput_size_m.textinput_has-clear_yes .textinput__control {
+    border-right-width: var(--textinput-size-m-has-icon-spaceRight);
+}
+.textinput_size_m.textinput_has-clear_yes .textinput__icon_side_right ~ .textinput__control {
+    border-right-width: var(--textinput-size-m-has-icon-spaceRight);
+}
+.textinput_size_m.textinput_icon-right_yes .textinput__clear {
+    right: var(--textinput-size-m-has-icon-spaceRight);
+}
+.textinput_size_m .textinput__icon.icon {
+    width: var(--textinput-size-m-icon-width);
+    height: var(--textinput-size-m-icon-height);
+}
+.textinput_size_s {
+    height: var(--textinput-size-s-height);
+}
+.textinput_size_s .textinput__control {
+    height: var(--textinput-size-s-control-height);
+
+    font-size: var(--textinput-size-s-fontSize);
+
+    border-width: var(--textinput-size-s-control-spaceAll);
+}
+.textinput_size_s .textinput__icon_side_left ~ .textinput__control {
+    border-left-width: var(--textinput-size-s-has-icon-spaceLeft);
+}
+.textinput_size_s .textinput__icon_side_right ~ .textinput__control {
+    border-right-width: var(--textinput-size-s-has-icon-spaceRight);
+}
+.textinput_size_s.textinput_has-clear_yes .textinput__control {
+    border-right-width: var(--textinput-size-s-has-icon-spaceRight);
+}
+.textinput_size_s.textinput_has-clear_yes .textinput__icon_side_right ~ .textinput__control {
+    border-right-width: var(--textinput-size-s-has-icon-spaceRight);
+}
+.textinput_size_s.textinput_icon-right_yes .textinput__clear {
+    right: var(--textinput-size-s-has-icon-spaceRight);
+}
+.textinput_size_s .textinput__icon.icon {
+    width: var(--textinput-size-s-icon-width);
+    height: var(--textinput-size-s-icon-height);
+}
+/** FROM common.blocks/textarea/_view/textarea_view_classic.css */
+/**
+ * Этот файл создан, чтобы не было предупреждения webpack-loader
+ * при сборке пакета и/или примеров для React.
+ * Впоследствии файл будет наполнен содержимым или удален.
+ */
+/** FROM common.blocks/textarea/_view/textarea_view_default.css */
+.textarea {
+    position: relative;
+}
+.textarea_view_default .textarea__box {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 4px;
+}
+.textarea_view_default.textarea_disabled_yes .textarea__box {
+    border: none;
+}
+/* The size of the clear icon should be 16x16 by default in most sizes */
+.textarea_view_default.textarea_size_s .textarea__clear svg,
+.textarea_view_default.textarea_size_xs .textarea__clear svg {
+    width: 12px;
+    height: 12px;
+}
+.textarea_view_default.textarea_size_m .textarea__clear svg {
+    width: 14px;
+    height: 14px;
+}
+.textarea_view_default .textarea__clear svg {
+    width: 16px;
+    height: 16px;
+}
+/* colors */
+.textarea_view_default .textarea__clear {
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+    color: var(--color-control-typo-primary);
+}
+.textarea_view_default .textarea__box {
+    -webkit-transition: background 0.15s linear;
+    transition: background 0.15s linear;
+}
+.textarea_view_default.textarea_disabled_yes .textarea__control::-webkit-input-placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textarea_view_default.textarea_disabled_yes .textarea__control::-moz-placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textarea_view_default.textarea_disabled_yes .textarea__control:-ms-input-placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textarea_view_default.textarea_disabled_yes .textarea__control::placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textarea_view_default.textarea_disabled_yes .textarea__control::-moz-placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textarea_view_default.textarea_focused_yes .textarea__box {
+    border-width: 2px;
+}
+/** FROM common.blocks/textarea/_theme/textarea_theme_normal.css */
+.textarea_view_default {
+    position: relative;
+
+    display: inline-block;
+
+    -moz-box-sizing: border-box;
+
+         box-sizing: border-box;
+    width: 100%;
+}
+.textarea_view_default .textarea__control {
+    font-family: var(--control-font-family);
+
+    color: var(--color-control-typo-primary);
+}
+.textarea_view_default .textarea__clear_visible_yes.textarea__clear_hovered_yes,
+.textarea_view_default .textarea__clear_visible_yes:hover {
+    opacity: 1;
+}
+.textarea_disabled_yes .textarea__clear_visible_yes {
+    cursor: default;
+}
+.textarea_disabled_yes.textarea_view_default .textarea__control {
+    color: var(--color-control-typo-disable);
+    -webkit-text-fill-color: var(--color-control-typo-disable); /* https://st.yandex-team.ru/ISL-2132 Safari needs it to blend color properly */
+}
+.textarea_view_default .textarea__control::-webkit-input-placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textarea_view_default .textarea__control::-moz-placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textarea_view_default .textarea__control:-ms-input-placeholder {
+    color: var(--color-control-typo-ghost);
+}
+.textarea_view_default .textarea__box {
+    border-color: var(--color-control-bg-border-blank);
+    background-color: var(--color-control-bg-blank);
+}
+.textarea_view_default.textarea_hovered_yes .textarea__box {
+    border-color: var(--color-control-bg-border-blank-hover);
+}
+.textarea_view_default.textarea_focused_yes {
+    border: 0;
+}
+.textarea_view_default.textarea_focused_yes .textarea__box,
+.textarea_view_default.textarea_focused_yes.textarea_hovered_yes .textarea__box {
+    border: 2px solid var(--color-control-bg-border-focus);
+}
+.textarea_view_default.textarea_disabled_yes .textarea__box {
+    border-color: transparent;
+    background-color: var(--color-control-bg-blank-disable);
+}
+/** FROM desktop.blocks/textarea/_theme/textarea_theme_normal.css */
+.textarea_view_default .textarea__clear {
+    -webkit-transition: opacity .1s ease-out, visibility 0s linear .1s;
+    transition: opacity .1s ease-out, visibility 0s linear .1s;
+}
+.textarea_size_m {
+    min-width: var(--textarea-size-m-minWidth);
+    min-height: var(--textarea-size-m-minHeight);
+}
+.textarea_size_m .textarea__control {
+    padding: var(--textarea-size-m-spaceAll);
+
+    font-size: var(--textarea-size-m-fontSize);
+}
+.textarea_size_m.textarea_has-clear_yes .textarea__control {
+    padding-right: 25%; /* Подобрано на глаз */
+}
+.textarea_size_m .textarea__clear {
+    width: var(--textarea-size-m-clear-width);
+    height: var(--textarea-size-m-clear-height);
+}
+.textarea_has-clear_yes .textarea__control {
+    width: 115%;
+}
+.tooltip_view_classic.tooltip_hovered_yes {
+    opacity: .85 !important; /* important, чтобы перекрыть стили jQuery после анимации */
+}
+.tooltip_size_m .tooltip__content {
+    padding: var(--tooltip-size-m-content-spaceAll);
+
+    font-size: var(--tooltip-size-m-fontSize);
+    line-height: var(--tooltip-size-m-lineHeight);
+}
+.tooltip_size_m .popup2__tail {
+    width: 12px;
+    height: 12px;
+}
+.tumbler__input {
+    position: absolute;
+    left: -9999px;
+}
+/**
+ * 1. Нужно для попапов в react, где b-page вешается не на body.
+ */
+body {
+    margin: 0;
+}
+.b-page__body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+/*
+ * 1. https://st.yandex-team.ru/ISLCOMPONENTS-1653
+ * Hack for Ya.Bro on iOS 7-8 for force pointer events listening on BODY.
+ *
+ * 2. https://st.yandex-team.ru/ISL-2147
+ * Отключение выделения страницы при касании
+ */
+.i-ua_platform_ios.b-page__body {
+    cursor: pointer; /* (1) */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* (2) */
+}
+.b-page__body {
+    margin: 0;
+
+    font-size: .8em;
+
+    color: #000;
+    background: #fff;
+}
+.link {
+    text-decoration: none;
+
+    outline: 0;
+
+    -ms-touch-action: manipulation;
+
+        touch-action: manipulation;
+}
+.utilityfocus .link:focus {
+    outline: 2px solid var(--color-control-bg-border-prism);
+}
+.link[aria-disabled="true"] {
+    pointer-events: none;
+
+    opacity: .5;
+}
+/** FROM deskpad.blocks/link/_theme/link_theme_black.css */
+.utilityfocus .link_view_black.link_focused_yes {
+    outline: 2px solid var(--color-control-bg-border-prism);
+}
+/** FROM deskpad.blocks/link/_theme/link_theme_ghost.css */
+.utilityfocus .link_view_ghost.link_focused_yes {
+    outline: 2px solid var(--color-control-bg-border-prism);
+}
+/** FROM deskpad.blocks/link/_theme/link_theme_normal.css */
+.utilityfocus.utilityfocus .link_view_default.link_focused_yes { /*1*/
+    outline: 2px solid var(--color-control-bg-border-prism);
+}
+/** FROM deskpad.blocks/link/_theme/link_theme_outer.css */
+.utilityfocus .link_view_outer.link_focused_yes {
+    outline: 2px solid var(--color-control-bg-border-prism);
+}
+/** FROM deskpad.blocks/link/_theme/link_theme_pseudo.css */
+.utilityfocus .link_view_pseudo.link_focused_yes {
+    outline: 2px solid var(--color-control-bg-border-prism);
+}
+/** FROM deskpad.blocks/link/_theme/link_theme_strong.css */
+.utilityfocus .link_view_strong.link_focused_yes {
+    outline: 2px solid var(--color-control-bg-border-prism);
+}
+.link {
+    cursor: pointer;
+}
+.link__icon {
+    -webkit-transition: opacity .15s ease-out;
+    transition: opacity .15s ease-out;
+}
+.link[aria-disabled="true"] {
+    cursor: default;
+}
+/* because IE doesn't respects pointer-events:none */
+.link[aria-disabled="true"]:hover {
+    color: #ddd;
+}
+/** FROM desktop.blocks/link/_theme/link_theme_black.css */
+.link_view_black:hover {
+    color: #c00;
+}
+/** FROM desktop.blocks/link/_theme/link_theme_ghost.css */
+.link_view_ghost:hover {
+    color: #000;
+}
+/** FROM desktop.blocks/link/_theme/link_theme_normal.css */
+.link_view_normal:hover {
+    color: #c00;
+}
+/** FROM desktop.blocks/link/_theme/link_theme_outer.css */
+.link_view_outer:hover {
+    color: #c00;
+}
+/** FROM desktop.blocks/link/_theme/link_theme_pseudo.css */
+.link_view_pseudo:hover {
+    color: #c00;
+}
+/** FROM desktop.blocks/link/_theme/link_theme_strong.css */
+.link_view_strong:hover {
+    color: #c00;
+}
+/* border-width нужен для меняющейся толщины обводки при фокусе */
+.button2_view_classic.button2_theme_normal:before {
+    -webkit-transition: .1s ease-out;
+    transition: .1s ease-out;
+    -webkit-transition-property: border-color, border-width, background-color;
+    transition-property: border-color, border-width, background-color;
+}
+.button2_view_classic.button2_theme_normal.button2_hovered_yes:before {
+    border-color: rgba(0,0,0,.3);
+}
+.button2_view_classic.button2_theme_normal.button2_checked_yes.button2_hovered_yes:before {
+    border-color: rgba(129,103,0,.6);
+}
+.button2_size_s {
+    height: var(--button-size-s-height);
+
+    font-size: var(--button-size-s-font);
+    line-height: var(--button-size-s-lineHeight);
+}
+.button2_size_s .button2__text {
+    margin: var(--button-size-s-text-indentAll);
+}
+.button2_size_s .button2__icon {
+    width: var(--button-size-s-icon-width);
+    height: 100%;
+}
+.button2_size_s .button2__icon.icon_type_arrow {
+    width: var(--button-size-s-icon-width);
+}
+.button2_size_s .button2__icon_side_left ~ .button2__text {
+    margin-left: var(--button-size-s-icon-indentLeft);
+}
+.button2_size_s .button2__icon_side_right ~ .button2__text {
+    margin-right: var(--button-size-s-icon-indentRight);
+}
+.checkbox_lines_multi {
+    display: inline-table;
+
+    white-space: normal;
+}
+.checkbox_lines_multi .checkbox__label {
+    display: table-cell;
+}
+.radio-button {
+    display: inline-block;
+
+    font-family: var(--font-family);
+
+    -moz-user-select: none;
+         -webkit-user-select: none;
+             -ms-user-select: none;
+            user-select: none;
+
+    white-space: nowrap;
+
+    -webkit-tap-highlight-color: var(--color-control-bg-focus);
+}
+/** TONE */
+.radio-button_view_default {
+    color: var(--color-control-typo-secondary);
+    background-color: var(--color-control-bg-default);
+}
+.radio-button_view_default .radio-button__radio_disabled_yes {
+    color: var(--color-control-typo-disable);
+}
+.radio-button_view_default .radio-button__radio_hovered_yes {
+    color: var(--color-control-typo-primary);
+}
+.radio-button_view_default .radio-button__radio_checked_yes {
+    color: var(--color-control-typo-primary);
+}
+.radio-button_view_default .radio-button__plate {
+    background-color: var(--color-control-bg-passive);
+}
+/* TODO check this */
+.utilityfocus .radio-button_view_default.radio-button_focused_yes {
+    box-shadow: 0 0 0 2px var(--color-control-bg-border-prism);
+}
+/** VIEW_DEFAULT */
+.radio-button_view_default {
+    position: relative;
+
+    border-radius: 4px;
+}
+.radio-button_view_default .radio-button__radio_checked_yes {
+    cursor: default;
+}
+.radio-button_view_default .radio-button__plate {
+    position: absolute;
+    top: 3px;
+    bottom: 3px;
+    left: 0;
+
+    border-radius: 2px;
+}
+.radio-button__radio_side_both {
+    border-radius: 3px;
+}
+.radio-button__radio_side_both:before {
+    right: 0;
+
+    border-radius: 3px;
+}
+.radio-button__radio_side_both:after {
+    border-radius: 2px;
+}
+.radio-button_size_m {
+    font-size: var(--radioButton-size-m-fontSize);
+    line-height: var(--radioButton-size-m-lineHeight);
+}
+.slider__body {
+    position: relative;
+    z-index: 7;
+
+    -webkit-user-select: none;
+
+       -moz-user-select: none;
+
+        -ms-user-select: none;
+
+            user-select: none;
+}
+/** FROM common.blocks/slider/_view/slider_view_default.css */
+/* метка */
+/* линия диапазона */
+.slider.slider_view_default.slider_disabled_yes .slider__range,
+.slider.slider_view_default.slider_disabled_yes .slider__runner.slider__runner:before {
+    border-width: 0;
+}
+/*
+.slider_view_default.slider_type_range .slider__runner:before {
+    border: 2px solid;
+}
+*/
+/* выделенный диапазон */
+/*
+.slider_view_default.slider_compact_yes .button2.slider__runner:before {
+    border: 3px solid;
+}
+*/
+/* rewrite sizes a little */
+.slider_view_default.slider_orientation_horiz.slider .slider__range,
+.slider_view_default.slider_orientation_horiz.slider .slider__allowed-range {
+    height: 3px;
+    margin-top: -1.5px; /* half of height */
+}
+.slider_view_default.slider_size_n .slider__info {
+    line-height: 36px;
+}
+.slider_view_default.slider_compact_yes.slider_size_n .slider__body {
+    height: 24px;
+}
+.slider_view_default.slider_compact_yes.slider_size_n .slider__runner {
+    min-width: 24px;
+    height: 24px; /* overwrites button_size_n */
+}
+.slider_size_n.slider_orientation_horiz .slider__allowed-range:after,
+.slider_size_n.slider_orientation_horiz .slider__allowed-range:before {
+    top: -15.5px;
+}
+.slider_view_default.slider_compact_yes.slider_size_n .slider__allowed-range:after, /* ? */
+.slider_view_default.slider_compact_yes.slider_size_n .slider__allowed-range:before {
+    top: -9.5px;
+
+    height: 22px;
+}
+.slider_view_default.slider_compact_yes.slider_size_m .slider__body {
+    height: 22px;
+}
+.slider_view_default.slider_compact_yes.slider_size_m .slider__runner {
+    min-width: 22px;
+    height: 22px; /* overwrites button_size_m */
+}
+.slider_view_default.slider_compact_yes.slider_size_s .slider__body {
+    height: 20px;
+}
+.slider_view_default.slider_compact_yes.slider_size_s .slider__runner {
+    min-width: 20px;
+    height: 20px; /* overwrites button_size_s */
+}
+/** FROM common.blocks/slider/_tone/slider_tone_default.css */
+.slider_view_default .slider__mark {
+    color: var(--color-control-bg-border-heavy);
+}
+.slider_view_default .slider__range {
+    background-color: var(--color-control-bg-border-default);
+}
+.slider.slider_view_default.slider_disabled_yes .slider__range,
+.slider.slider_view_default.slider_disabled_yes .slider__runner.slider__runner:before {
+    background-color: var(--color-control-bg-default-disable);
+}
+.slider_view_default.slider_type_range .slider__runner:before {
+    border-color: var(--color-control-bg-border-heavy);
+}
+.slider_view_default.slider_type_range .slider__range_pos_2 {
+    background-color: var(--color-control-bg-heavy);
+}
+.slider_view_default.slider_compact_yes .button2.slider__runner:before {
+    border-color: var(--color-control-bg-border-default);
+    background-color: var(--color-control-bg-heavy);
+}
+.slider_view_default.slider_type_range.slider_compact_yes .button2.slider__runner:before {
+    border-color: var(--color-control-bg-border-heavy);
+}
+.slider_view_default.slider_compact_yes .button2.slider__runner.button2_hovered_yes:before,
+.slider_view_default.slider_compact_yes .button2.slider__runner.button2_pressed_yes:before,
+.utilityfocus .slider_view_default.slider_compact_yes .slider__runner.button2_focused_yes:before {
+    border-color: var(--color-control-bg-border-prism);
+    background-color: var(--color-control-bg-border-prism);
+}
+.utilityfocus .slider_view_default.slider_compact_yes .slider__runner.button2_focused_yes:before {
+    box-shadow: 0 0 0 1px var(--color-control-bg-border-prism);
+}
+/** FROM common.blocks/slider/_theme/slider_theme_normal.css */
+.slider_view_default {
+    font-family: var(--control-font-family);
+}
+.button2.button2.button2_pin_round-brick:before {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.slider_size_m {
+    font-size: var(--slider-size-m-fontSize);
+}
+.slider_size_m .slider__body {
+    height: var(--slider-size-m-body-height);
+}
+.slider_size_m .slider__runner {
+    min-width: var(--slider-size-m-runner-minWidth);
+}
+.slider_size_m .slider__text {
+    margin: var(--slider-size-m-text-indentAll);
+}
+.slider_size_m.slider_orientation_horiz .slider__range,
+.slider_size_m.slider_orientation_horiz .slider__allowed-range {
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    height: var(--slider-size-m-range-height);
+    margin-top: -webkit-calc(var(--slider-size-m-range-height)/2);
+    margin-top: calc(var(--slider-size-m-range-height)/2);
+
+    background-clip: padding-box;
+}
+.slider_size_m .slider__allowed-range:after,
+.slider_size_m .slider__allowed-range:before {
+    top: var(--slider-size-m-range-after-positionTop);
+
+    height: var(--slider-size-m-range-after-height);
+}
+.slider_type_range .slider__range_pos_2 {
+    z-index: 3;
+}
+.slider_type_range .slider__range_pos_2:before {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    bottom: 1px;
+    left: 0;
+
+    content: '';
+}
+.slider_input_hidden .slider__info {
+    display: none;
+}
+.slider_compact_yes .slider__text {
+    display: none;
+}
+.slider_size_s {
+    font-size: var(--slider-size-s-fontSize);
+}
+.slider_size_s .slider__body {
+    height: var(--slider-size-s-body-height);
+}
+.slider_size_s .slider__runner {
+    min-width: var(--slider-size-s-runner-minWidth);
+}
+.slider_size_s .slider__text {
+    margin: var(--slider-size-s-text-indentAll);
+}
+.slider_size_s.slider_orientation_horiz .slider__range,
+.slider_size_s.slider_orientation_horiz .slider__allowed-range {
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+    height: var(--slider-size-s-range-height);
+    margin-top: -webkit-calc(var(--slider-size-s-range-height)/2);
+    margin-top: calc(var(--slider-size-s-range-height)/2);
+
+    background-clip: padding-box;
+}
+.slider_size_s .slider__allowed-range:after,
+.slider_size_s .slider__allowed-range:before {
+    top: var(--slider-size-s-range-after-positionTop);
+
+    height: var(--slider-size-s-range-after-height);
+}
+.tumbler__box {
+    position: relative;
+
+    display: inline-block;
+
+    cursor: pointer;
+    vertical-align: top;
+}
+.tumbler__button {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+
+    -webkit-transition: left .15s ease-out;
+
+    transition: left .15s ease-out;
+}
+.attach {
+    display: inline-block;
+
+    white-space: nowrap;
+}
+/* Оптимизация css для элементов holder && reset */
+.attach__icon-file,
+.attach__reset {
+    width: 1px;
+    height: 1px;
+
+    vertical-align: middle;
+}
+.attach__text {
+    color: var(--color-control-typo-primary);
+}
+.attach_size_s {
+    font-size: var(--attach-size-s-fontSize);
+    line-height: var(--attach-size-s-lineHeight);
+}
+.attach_size_m {
+    font-size: var(--attach-size-m-fontSize);
+    line-height: var(--attach-size-m-lineHeight);
+}
+.attach_disabled_yes .attach__holder {
+    pointer-events: none;
+
+    opacity: .6;
+}
+.attach_disabled_yes .attach__control {
+    cursor: default;
+}
+.radio-button_view_default.radio-button_animated_yes .radio-button__radio {
+    -webkit-transition: color .15s linear;
+    transition: color .15s linear;
+}
+.radio-button_view_default.radio-button_animated_yes .radio-button__plate {
+    -webkit-transition: width .2s, left .2s;
+    transition: width .2s, left .2s;
+}
+.slider__runner {
+    position: absolute;
+    z-index: 10;
+}
+.slider_animation_yes .slider__runner {
+    -webkit-transition: left .25s ease, bottom .25s ease;
+    transition: left .25s ease, bottom .25s ease;
+}
+.slider_animation_yes .slider__range {
+    -webkit-transition: width .25s ease, left .25s ease, height .25s ease, bottom .25s ease;
+    transition: width .25s ease, left .25s ease, height .25s ease, bottom .25s ease;
+}
+.slider_orientation_horiz .slider__mark_position_last {
+    right: 0;
+}
+.slider_orientation_horiz .slider__range_position_first {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.slider_orientation_horiz .slider__range_position_last {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.slider_orientation_horiz .slider__allowed-range[style*='left:0%;width:100%;'] {
+    border: none;
+    border-radius: 3px;
+    background: none;
+}
+.x-title {
+    position: relative;
+    /* Чтобы можно было сразу навести на ссылку-якорь */
+
+    margin-left: -18px;
+    padding-left: 18px;
+}
+.x-title__anchor {
+    position: absolute;
+    left: 0;
+
+    visibility: hidden;
+
+    padding: 0 5px;
+
+    font-weight: normal;
+
+    opacity: 0;
+
+    -webkit-transition: opacity .1s ease-out 0s, visibility 0s ease-out .1s;
+
+    transition: opacity .1s ease-out 0s, visibility 0s ease-out .1s;
+}
+.x-title:hover .x-title__anchor,
+.x-title__anchor:hover {
+    visibility: visible;
+
+    opacity: 1;
+
+    -webkit-transition-delay: 0s;
+
+            transition-delay: 0s;
+}
+.tabs-menu__tab {
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.tabs-menu__tab .link {
+    position: relative;
+
+    display: inline-block;
+}
+.tabs-menu__tab_disabled_yes {
+    cursor: default;
+}
